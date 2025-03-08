@@ -8,7 +8,7 @@ module.exports = {
   'Please select workspace': '请选择工作区',
   'workspaces found': '共找到 {count} 个工作区',
   WS_STORAGE_QUOTA_DESC: '可以对工作区下的存储资源总量进行限制。',
-  ROLE_WORKSPACES_MANAGER: '管理 KubeSphere 平台上的所有工作区。',
+  ROLE_WORKSPACES_MANAGER: '管理 UWS 平台上的所有工作区。',
   ROLE_PLATFORM_REGULAR: '被邀请加入工作区之前无法访问任何资源。',
   ROLE_PLATFORM_SELF_PROVISIONER: '创建工作区并成为所创建的工作区的管理员。',
   PERMISSION_WORKSPACES_VIEW: '工作区查看',
@@ -109,7 +109,7 @@ module.exports = {
     '您可以将 Helm chart 上传为工作区的应用模板，审核通过后，应用将会发布在应用商店中。',
   HOW_TO_APPLY_MORE_CLUSTER_Q: '如何为工作区申请更多的集群？',
   WORKSPACE_OVERVIEW_DESC:
-    '工作区为 KubeSphere 提供了安全隔离的、具有访问权限控制的工作平台。这里您可以看到当前工作区内资源运行的概况。',
+    '工作区为 UWS 提供了安全隔离的、具有访问权限控制的工作平台。这里您可以看到当前工作区内资源运行的概况。',
   WORKSPACE_SETTINGS: '工作区设置',
   WORKSPACE_BASIC_INFO_DESC: '基本信息提供工作区的信息概览，您可以查看工作区的基本信息。',
   WORKSPACE_BASE_INFO_Q1: '如何为工作区申请更多的集群？',
@@ -199,7 +199,7 @@ module.exports = {
   PROJECT_CPU_USAGE: '业务 CPU 用量',
   NS_STORAGE_QUOTA_DESC: '可以对业务下的存储资源总量进行限制。',
   KS_DESCRIPTION:
-    'KubeSphere 是一款开源业务，在目前主流容器调度平台 Kubernetes 之上构建的企业级分布式多租户容器管理平台，提供简单易用的操作界面以及向导式操作方式，在降低用户使用容器调度平台学习成本的同时，极大降低开发、测试、运维的日常工作的复杂度。',
+    'UWS 以“智能驱动效率”为核心，基于 KubeSphere 构建的下一代 AI 云操作系统，以革新性突破重新定义云管理范式。平台深度集成自研 UnieInfra 超高性能推理引擎，并融合生成式AI技术，提供从智能算力调度、自动化运维到AI应用落地的全栈能力。通过AI原生架构，平台实现“零门槛”AI赋能——内置50+预训练模型与开箱即用的AI应用商店，支持企业一键部署RAG服务。',
   REPS_ADDRESS: '业务地址',
   WORKSPACE_DESC:
     '工作区是一个组织您的业务和 DevOps 业务、管理资源访问权限以及在团队内部共享资源等的逻辑单元，可以作为团队工作的独立工作空间。',

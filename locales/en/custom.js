@@ -8,7 +8,7 @@ module.exports = {
   'Please select workspace': 'Please select a workspace',
   'workspaces found': '{count} workspaces found',
   WS_STORAGE_QUOTA_DESC: 'You can limit the total amount of storage resources under the workspace.',
-  ROLE_WORKSPACES_MANAGER: 'Manage all workspaces on the KubeSphere platform.',
+  ROLE_WORKSPACES_MANAGER: 'Manage all workspaces on the UWS platform.',
   ROLE_PLATFORM_REGULAR: 'Cannot access any resources before being invited to a workspace.',
   ROLE_PLATFORM_SELF_PROVISIONER:
     'Create workspaces and become the administrator of the created workspaces.',
@@ -129,7 +129,7 @@ module.exports = {
     'You can upload the Helm chart as an app template for the workspace, and once approved, the app will be published in the app store.',
   HOW_TO_APPLY_MORE_CLUSTER_Q: 'How to apply for more clusters for the workspace?',
   WORKSPACE_OVERVIEW_DESC:
-    'The workspace provides a secure, access-controlled, and isolated platform on KubeSphere. Here you can see an overview of the resources running in the current workspace.',
+    'The workspace provides a secure, access-controlled, and isolated platform on UWS. Here you can see an overview of the resources running in the current workspace.',
   WORKSPACE_SETTINGS: 'Workspace Settings',
   WORKSPACE_BASIC_INFO_DESC:
     'Basic information provides an overview of the workspace, where you can view basic information about the workspace.',
@@ -235,7 +235,7 @@ module.exports = {
   PROJECT_CPU_USAGE: 'Project CPU usage',
   NS_STORAGE_QUOTA_DESC: 'You can limit the total amount of storage resources under the project.',
   KS_DESCRIPTION:
-    'KubeSphere is an open-source platform built on top of the mainstream container orchestration platform Kubernetes, providing an easy-to-use operating interface and wizard-style operations. It greatly lowers the learning curve of the container orchestration platform for users and reduces the complexity of daily work for developers, testing personnel, and operation and maintenance personnel.',
+    'UWS is a next-generation AI cloud operating system built on KubeSphere, with "intelligent-driven efficiency" at its core. Through groundbreaking innovation, it redefines the paradigm of cloud management. The platform deeply integrates its self-developed UnieInfra ultra-high-performance inference engine and incorporates generative AI technology, offering full-stack capabilities from intelligent compute scheduling and automated operations to AI application deployment. With its AI-native architecture, UWS achieves "zero-barrier" AI empowerment—featuring over 50 pre-trained models and a plug-and-play AI application store, enabling enterprises to deploy RAG services with just one click.',
   REPS_ADDRESS: 'Project address',
   WORKSPACE_DESC:
     'A workspace is a logical unit that organizes your projects and DevOps projects, manages resource access permissions, and shares resources within teams. It can serve as an independent workspace for team work.',
