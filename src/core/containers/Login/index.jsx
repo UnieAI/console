@@ -153,6 +153,7 @@ export default class Login extends Component {
             </div>
           </Form>
         </div>
+        © 2025 UnieAI • GenAI Infrastructure
       </div>
     )
   }

@@ -27,5 +27,5 @@ module.exports = {
   // Workspaces
   WORKSPACES: 'Workspaces',
   MANAGER: '管理員',
-  IPPOOL_WORKSPACE_EMPTY_TIP: '暫無企業空間使用此 IP 地址範圍'
-};
+  IPPOOL_WORKSPACE_EMPTY_TIP: '暫無企業雲使用此 IP 地址範圍',
+}

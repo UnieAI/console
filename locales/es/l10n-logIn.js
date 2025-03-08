@@ -23,6 +23,7 @@ module.exports = {
   LOG_OUT: 'Log Out',
   ABOUT: 'About',
   USERNAME_OR_EMAIL: 'Username or Email',
-  WELCOME: 'Welcome',
-  INTERNAL_SERVER_ERROR_TIP: 'An unepected error seems to have occurred. Please refresh your page.'
-};
+  WELCOME: 'Resonate with the future and start your AI journey',
+  INTERNAL_SERVER_ERROR_TIP:
+    'An unepected error seems to have occurred. Please refresh your page.',
+}

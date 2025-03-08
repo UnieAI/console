@@ -24,7 +24,7 @@ module.exports = {
   LOG_OUT: 'Çıkış Yap',
   ABOUT: 'Hakkında',
   USERNAME_OR_EMAIL: 'Kullanıcı adı veya E-posta',
-  WELCOME: 'Hoşgeldiniz',
+  WELCOME: 'Resuena con el futuro y comienza tu viaje hacia la IA',
   INTERNAL_SERVER_ERROR_TIP:
     'Beklenmeyen hata oluştu. Lütfen sayfayı yenileyin.',
 }

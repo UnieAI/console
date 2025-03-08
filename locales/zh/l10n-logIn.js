@@ -23,6 +23,6 @@ module.exports = {
   LOG_OUT: '登出',
   ABOUT: '关于',
   USERNAME_OR_EMAIL: '用户名或邮箱',
-  WELCOME: '欢迎登录',
-  INTERNAL_SERVER_ERROR_TIP: '对不起，服务器开小差了'
-};
+  WELCOME: '与未来共振，开启你的人工智能旅程',
+  INTERNAL_SERVER_ERROR_TIP: '对不起，服务器开小差了',
+}

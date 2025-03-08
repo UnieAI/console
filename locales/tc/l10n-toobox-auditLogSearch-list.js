@@ -17,7 +17,8 @@
  */
 module.exports = {
   // Title
-  TOTAL_AUDITING_TODAY: '今日總共收錄了 <span class={className}> {auditing} </span> 條操作審計',
+  TOTAL_AUDITING_TODAY:
+    '今日總共收錄了 <span class={className}> {auditing} </span> 條操作審計',
   NO_AUDIT_LOG_TODAY: '今日沒有收錄的操作審計',
   // Search
   NO_AVAILABLE_CLUSTER: '暫時沒有可用集群',
@@ -25,7 +26,7 @@ module.exports = {
   TIME_RANGE_LAST: 'Time range: last {value}',
   TIME_RANGE_RANGE: 'Time range: {startTime} - {endTime}',
   // Querying Rules
-  AUDIT_LOG_WORKSPACE_TIP: '可以根據企業空間查看相關的操作審計',
+  AUDIT_LOG_WORKSPACE_TIP: '可以根據企業雲查看相關的操作審計',
   AUDIT_LOG_PROJECT_TIP: '可以根據項目查看相關的操作審計',
   AUDIT_LOG_RESOURCE_NAME_TIP: '可以根據資源名稱查看相關的操作審計',
   AUDIT_LOG_RESOURCE_TYPE_TIP: '可以根據資源類型查看相關的操作審計',
@@ -36,5 +37,5 @@ module.exports = {
   SEARCH_BY_VERB: 'Search by Verb',
   SEARCH_BY_STATUS_CODE: 'Search by Status Code',
   SEARCH_BY_OPERATOR: 'Search by Operator',
-  SEARCH_BY_SOURCE_IP_ADDRESS: 'Search by Source IP Address'
-};
+  SEARCH_BY_SOURCE_IP_ADDRESS: 'Search by Source IP Address',
+}

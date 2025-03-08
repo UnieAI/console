@@ -64,8 +64,8 @@ module.exports = {
   'StorageClasses Management': '儲存類型管理',
   'StorageClasses View': '儲存類型查看',
   'Unable to delete preset role': '無法刪除預設角色',
-  WORKSPACES_MANAGEMENT: '企業空間管理',
-  WORKSPACES_VIEW: '企業空間查看',
+  WORKSPACES_MANAGEMENT: '企業雲管理',
+  WORKSPACES_VIEW: '企業雲查看',
   NO_AVAILABLE_ROLE: '目前項目無可用角色',
   JOIN_PROJECT_PLACEHOLDER: '輸入用戶名稱或者郵箱邀請用戶加入到項目中',
   ROLE_PROJECTS_JOIN_TIP: '輸入用戶名或者郵箱邀請用戶加入到項目中',
@@ -147,7 +147,7 @@ module.exports = {
   STORAGECLASSES_MANAGEMENT_DESC: '創建/編輯/刪除 儲存類型，設置預設儲存類型',
   CLUSTER_MONITORING_VIEW_DESC: '查看集群物理資源，應用資源的監控數據',
   FEDERATED_PROJECTS_MANAGEMENT_DESC:
-    '管理企業空間裡的所有多集群項目，可以 創建/編輯/刪除 多集群項目',
+    '管理企業雲裡的所有多集群項目，可以 創建/編輯/刪除 多集群項目',
   ROLE_CLUSTER_ADMIN: '集群管理員，可以管理集群中所有的資源。',
   ROLE_CLUSTER_VIEWER: '集群觀察者，可以查看集群下所有的資源。',
   ROLE_DEVOPS_REGULAR:

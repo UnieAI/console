@@ -18,11 +18,11 @@
 module.exports = {
   // Log in page
   INPUT_USERNAME_OR_EMAIL_TIP: '請輸入用戶名或信箱',
-  LOG_IN: 'Log In',
+  LOG_IN: '登入',
   LOG_IN_WITH_TITLE: '通過 {title} 登入',
-  LOG_OUT: 'Log Out',
-  ABOUT: 'About',
-  USERNAME_OR_EMAIL: 'Username or Email',
-  WELCOME: 'Welcome',
-  INTERNAL_SERVER_ERROR_TIP: '對不起，服務器有小差錯了'
-};
+  LOG_OUT: '登出',
+  ABOUT: '關於',
+  USERNAME_OR_EMAIL: '使用者名稱或Email',
+  WELCOME: '與未來共振，開啟你的人工智慧旅程',
+  INTERNAL_SERVER_ERROR_TIP: '對不起，服務器有小差錯了',
+}

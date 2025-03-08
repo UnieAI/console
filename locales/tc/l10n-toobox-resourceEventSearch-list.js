@@ -17,13 +17,14 @@
  */
 module.exports = {
   // Title
-  TOTAL_EVENTS_TODAY: '今日總共收錄了 <span class={className}> {events} </span> 條事件',
+  TOTAL_EVENTS_TODAY:
+    '今日總共收錄了 <span class={className}> {events} </span> 條事件',
   NO_RESOURCE_EVENTS_TODAY: '今日沒有收錄的事件',
   // Search
   EVENT_NOT_ENABLED_DESC: '暫無啟用事件查詢的集群',
   // Querying Rules
   RESOURCE_EVENT_TRENDS_12H: '最近 12 小時事件總數變化趨勢',
-  RESOURCE_EVENT_WORKSPACE_TIP: '可以根據企業空間查看相關的事件資訊',
+  RESOURCE_EVENT_WORKSPACE_TIP: '可以根據企業雲查看相關的事件資訊',
   RESOURCE_EVENT_PROJECT_TIP: '可以根據項目查看相關的事件資訊',
   RESOURCE_EVENT_RESOURCE_TYPE_TIP: '可以根據資源類型查看相關的事件資訊',
   RESOURCE_EVENT_RESOURCE_NAME_TIP: '可以根據資源名稱查看相關的事件資訊',
@@ -35,5 +36,5 @@ module.exports = {
   SEARCH_BY_RESOURCE_TYPE: 'Search by Resource Type',
   SEARCH_BY_RESOURCE_NAME: 'Search by Resource Name',
   SEARCH_BY_REASON: 'Search by Reason',
-  SEARCH_BY_CATEGORY: 'Search by Category'
-};
+  SEARCH_BY_CATEGORY: 'Search by Category',
+}

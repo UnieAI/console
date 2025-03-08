@@ -21,9 +21,10 @@ module.exports = {
   // List
   PLATFORM_ROLE_EMPTY_DESC: 'Please create a platform role.',
   ROLE_USERS_MANAGER: '平台用戶管理員，管理平台所有用戶。',
-  ROLE_WORKSPACES_MANAGER: '平台企業空間管理員，管理平台所有企業空間。',
+  ROLE_WORKSPACES_MANAGER: '平台企業雲管理員，管理平台所有企業雲。',
   ROLE_PLATFORM_ADMIN: '平台管理員，可以管理平台内的所有資源。',
-  ROLE_PLATFORM_REGULAR: '平台普通用戶，在被邀請加入企業空間或集群之前沒有任何資源操作權限。',
+  ROLE_PLATFORM_REGULAR:
+    '平台普通用戶，在被邀請加入企業雲或集群之前沒有任何資源操作權限。',
   CREATION_TIME_TCAP: '創建時間',
   // List > Create
   CREATE_PLATFORM_ROLE: '創建帳戶角色',
@@ -35,16 +36,19 @@ module.exports = {
   // List > Create > Edit Permissions > Access Control
   USERS_MANAGEMENT: '帳戶管理',
   USERS_VIEW: '帳戶查看',
-  WORKSPACES_MANAGEMENT_DESC: '支持企業空間的管理，包括添加/刪除/編輯企業空間，查看平台的所有企業空間。',
+  WORKSPACES_MANAGEMENT_DESC:
+    '支持企業雲的管理，包括添加/刪除/編輯企業雲，查看平台的所有企業雲。',
   USERS_MANAGEMENT_DESC: '支持帳戶的管理，包括添加/刪除/更新帳戶資訊',
   ROLES_MANAGEMENT_DESC: '支持帳戶角色的管理，包括添加/刪除/更新帳戶角色',
-  WORKSPACES_VIEW_DESC: '可以查看用戶目前授權的企業空間',
+  WORKSPACES_VIEW_DESC: '可以查看用戶目前授權的企業雲',
   ROLES_VIEW_DESC: '可以查看目前平台有哪些角色',
   USERS_VIEW_DESC: '可以查看目前平台有哪些用戶',
   // List > Create > Edit Permissions > App Management
   APP_TEMPLATES_VIEW_DESC: '查看平台級别的應用商店',
-  APP_TEMPLATES_MANAGEMENT_DESC: '管理平台級别的應用商店，對雲原生應用的上架、下架以及審核等應用全生命週期的統一管理。',
+  APP_TEMPLATES_MANAGEMENT_DESC:
+    '管理平台級别的應用商店，對雲原生應用的上架、下架以及審核等應用全生命週期的統一管理。',
   // List > Create > Edit Permissions > Platform Settings
   PLATFORM_SETTINGS_MANAGEMENT: '平台設置管理',
-  PLATFORM_SETTINGS_MANAGEMENT_DESC: '管理平台設置，如自定義平台資訊，logo，配置紀錄收集，郵件通知等。'
-};
+  PLATFORM_SETTINGS_MANAGEMENT_DESC:
+    '管理平台設置，如自定義平台資訊，logo，配置紀錄收集，郵件通知等。',
+}

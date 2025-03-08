@@ -609,4 +609,6 @@ client:
   
   # supported Gpu type
   supportGpuType:
-    - 'nvidia.com/gpu'
+    - 'Nvidia/gpu'
+    - 'AMD/GPU'
+    - 'HPU'

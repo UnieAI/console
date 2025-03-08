@@ -22,18 +22,22 @@ module.exports = {
   // Install > Deployment Agreement
   AGREE: 'Agree',
   APP_DEPLOY_AGREEMENT: 'Deployment Agreement',
-  APP_DEPLOY_AGREEMENT_DESC_1: 'You must abide by the open-source agreement of the application.',
-  APP_DEPLOY_AGREEMENT_DESC_2: 'Any consequences arising from your deployment of the application shall be borne by you. For support services, please contact the developer.',
+  APP_DEPLOY_AGREEMENT_DESC_1:
+    'You must abide by the open-source agreement of the application.',
+  APP_DEPLOY_AGREEMENT_DESC_2:
+    'Any consequences arising from your deployment of the application shall be borne by you. For support services, please contact the developer.',
   DO_NOT_REMIND_AGAIN: 'Do not remind me again',
   // Install > Basic Information
   LOCATION: '位置',
-  CLUSTER_NAME_DESC: '最長 53 個字元，只能包含小寫字母、數字及分隔符號("-")，且必須以小寫字母或數字開頭及結尾',
+  CLUSTER_NAME_DESC:
+    '最長 53 個字元，只能包含小寫字母、數字及分隔符號("-")，且必須以小寫字母或數字開頭及結尾',
   FEDPROJECT_CANNOT_DEPLOY_APP_TIP: '無法在多集群項目裡部署應用.',
   LATEST_VERSION_SCAP: '最新版本',
-  WORKSPACE_EMPTY_DESC: '請選擇企業空間',
+  WORKSPACE_EMPTY_DESC: '請選擇企業雲',
   VERSION_EMPTY_DESC: '請選擇版本',
   // Install > App Settings
-  HELM_APP_SCHEMA_FORM_TIP: '此應用支持表單模式，可選擇通過表單或 YAML 編輯器來修改預設應用配置。注意：不同模式之間數據獨立。',
+  HELM_APP_SCHEMA_FORM_TIP:
+    '此應用支持表單模式，可選擇通過表單或 YAML 編輯器來修改預設應用配置。注意：不同模式之間數據獨立。',
   DEPLOYED_SUCCESSFUL: 'Deployed successfully.',
   // App Information
   APP_INFORMATION: '應用資訊',
@@ -43,7 +47,8 @@ module.exports = {
   HOMEPAGE_COLON: 'Homepage:',
   RELEASE_DATE_COLON: 'Release Date:',
   APP_ID_COLON: 'App ID:',
-  APP_VERSIONS_TITLE: 'Versions (only the latest 10 versions will be displayed)',
+  APP_VERSIONS_TITLE:
+    'Versions (only the latest 10 versions will be displayed)',
   MAINTAINER_COLON: '維護者',
   // App Details > Verions
   VERSIONS: 'Versions',
@@ -57,5 +62,5 @@ module.exports = {
   VERSION_INTRO_EMPTY_DESC: '該版本沒有說明文件',
   // App Details > Chart Files
   CHART_FILES: '配置文件',
-  NO_APP_CHART_FILE_FOUND: '該應用沒有配置文件'
-};
+  NO_APP_CHART_FILE_FOUND: '該應用沒有配置文件',
+}
