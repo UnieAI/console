@@ -1,25 +1,36 @@
 @import '~scss/variables';
 @import '~scss/mixins';
 
+.wapper {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; // 確保佔滿整個視窗高度
+  width: 100vw; // 確保佔滿整個視窗寬度
+}
+
 .logo {
-  position: absolute;
-  top: 80px;
-  left: 50%;
-  transform: translateX(-50%);
+  // position: absolute;
+  // top: 80px;
+  // left: 50%;
+  // transform: translateX(-50%);
 }
 
 .logo img {
-  width: 180px;
-  height: 40px;
+  width: 380px;
+  // height: 40px;
 }
 
 .login {
   position: relative;
-  width: 320px;
-  margin: 140px auto 40px;
+  width: 420px;
+  // height: 250px;
+  margin: 50px auto 40px;
   padding: 20px;
   background-color: #fff;
-  border-radius: 4px;
+  border-radius: 20px;
   box-shadow: $base-shadow;
   box-sizing: border-box;
 

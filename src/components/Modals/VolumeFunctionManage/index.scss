@@ -31,6 +31,7 @@
         .toggle.checked:after {
           left: 100%;
           transform: translateX(calc(-100% - 2px)) translateY(-50%);
+          background-color: #2674f0;
         }
       }
     }

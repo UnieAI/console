@@ -100,7 +100,7 @@ export default class Login extends Component {
   render() {
     const { formData, isSubmmiting, errorMessage } = this.state
     return (
-      <div>
+      <div className={styles.wapper}>
         <a href="/" className={styles.logo}>
           <img src="/assets/logo.png" alt="" />
         </a>
@@ -124,7 +124,11 @@ export default class Login extends Component {
               message={t(errorMessage)}
             />
           )}
-          <Form data={formData} onSubmit={this.handleSubmit}>
+          <Form
+            data={formData}
+            onSubmit={this.handleSubmit}
+            style={{ width: '100%' }}
+          >
             <Form.Item
               label={t('USERNAME_OR_EMAIL')}
               rules={[
