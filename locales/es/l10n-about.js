@@ -16,10 +16,11 @@
  * along with KubeSphere Console.  If not, see <https://www.gnu.org/licenses/>.
  */
 module.exports = {
-  KS_DESCRIPTION: 'KubeSphere es un proyecto de código abierto que tiene como objetivo proporcionar una plataforma de contenedores multi-tenant de nivel empresarial sobre Kubernetes, la plataforma de orquestación de contenedores de referencia. KubeSphere proporciona una interfaz fácil de usar y permite realizar operaciones usando asistentes, reduciendo la curva de aprendizaje y el costo operativo de Kubernetes en términos del trabajo diario de desarrollo, prueba y mantenimiento.',
+  KS_DESCRIPTION:
+    'UWS, con "eficiencia impulsada por la inteligencia" como núcleo, es un sistema operativo en la nube de próxima generación basado en KubeSphere que redefine el paradigma de la gestión en la nube con innovaciones revolucionarias. La plataforma integra profundamente su motor de inferencia UnieInfra de ultra alto rendimiento y tecnologías de IA generativa, proporcionando capacidades de pila completa desde la orquestación inteligente de recursos, la operación automatizada, hasta la implementación de aplicaciones de IA. Con una arquitectura nativa de IA, UWS logra una habilitación de IA sin barreras, incluyendo más de 50 modelos preentrenados y una tienda de aplicaciones de IA lista para usar, permitiendo a las empresas desplegar servicios RAG con un solo clic.',
   REPS_ADDRESS: 'GitHub',
   ISSUE_FEEDBACK: 'Feedback',
   PART_IN_DISCUSSION: 'Discusión',
   CODE_CONTRIBUTE: 'Contribución',
-  GITHUB_STAR: 'Star'
-};
+  GITHUB_STAR: 'Star',
+}

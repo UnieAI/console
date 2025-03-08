@@ -34,7 +34,7 @@ import {
 
 import styles from './index.scss'
 
-const AreaColors = ['green']
+const AreaColors = ['primary']
 
 export default class SimpleCircle extends React.Component {
   static propTypes = {

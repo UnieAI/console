@@ -170,15 +170,15 @@ export const METER_RESOURCE_USAGE = {
 }
 
 export const AREA_COLORS = [
-  'green',
+  'primary',
   'blue',
   'yellow',
   'red',
-  'darkestGreen',
+  'darkestprimary',
   'darkestBlue',
   'darkestYellow',
   'darkestRed',
-  'lightestGreen',
+  'lightestprimary',
   'lightestBlue',
   'lightestYellow',
   'lightestRed',
@@ -187,7 +187,7 @@ export const AREA_COLORS = [
 export const PIE_COLORS = [
   '#3b747a',
   '#479e88',
-  '#55bc8a',
+  '#2674f0',
   '#a2d8bb',
   '#326e93',
   '#3385b0',

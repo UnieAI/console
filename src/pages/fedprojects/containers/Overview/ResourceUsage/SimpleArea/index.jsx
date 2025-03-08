@@ -32,7 +32,7 @@ import {
 } from 'recharts'
 import CustomTooltip from 'components/Charts/Custom/Tooltip'
 
-const AreaColors = ['green', 'blue', 'yellow', 'red']
+const AreaColors = ['primary', 'blue', 'yellow', 'red']
 
 class CustomizedAxisTick extends React.PureComponent {
   render() {
@@ -115,8 +115,8 @@ export default class SimpleArea extends React.Component {
         >
           <defs>
             <linearGradient id="colorPv" x1="0" y1="0" x2="0" y2="1">
-              <stop offset="5%" stopColor="#55bc8a" stopOpacity={0.2} />
-              <stop offset="95%" stopColor="#55bc8a" stopOpacity={0} />
+              <stop offset="5%" stopColor="#2674f0" stopOpacity={0.2} />
+              <stop offset="95%" stopColor="#2674f0" stopOpacity={0} />
             </linearGradient>
           </defs>
           <CartesianGrid

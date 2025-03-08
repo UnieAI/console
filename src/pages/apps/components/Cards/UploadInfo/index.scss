@@ -12,7 +12,7 @@
   &.hide {
     display: none;
   }
-  
+
   &.error {
     .statusIcon {
       .icon {
@@ -23,7 +23,7 @@
       }
     }
 
-    .name, 
+    .name,
     .description {
       color: $red;
       font-weight: bold;
@@ -50,7 +50,7 @@
 
       svg {
         color: $white;
-        fill: $green;
+        fill: $primary;
       }
     }
   }

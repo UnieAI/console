@@ -10,11 +10,11 @@
   border: none;
   background-color: transparent;
   & > input:hover + .border {
-    border-color: rgb(121, 185, 160);
+    border-color: rgb(1, 90, 255);
   }
   & > input:focus + .border {
-    border-color: rgb(121, 185, 160);
-    box-shadow: 0 1px 3px 0 rgba(121, 185, 160, 0.4);
+    border-color: rgb(0, 60, 255);
+    box-shadow: 0 1px 3px 0 rgba(0, 81, 255, 0.4);
   }
 
   input {

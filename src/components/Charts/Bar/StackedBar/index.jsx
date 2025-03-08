@@ -39,7 +39,7 @@ import { getActiveSeries } from 'components/Charts/utils'
 
 import styles from './index.scss'
 
-const AreaColors = ['green', 'blue', 'yellow']
+const AreaColors = ['primary', 'blue', 'yellow']
 
 export default class StackedBar extends React.Component {
   static propTypes = {

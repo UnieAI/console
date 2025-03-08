@@ -1,12 +1,12 @@
 @import '~scss/variables';
 
 .wrapper {
-  width: 100%
+  width: 100%;
 
   :global {
     .recharts-cartesian-grid-horizontal {
       line {
-        stroke-dasharray: 3
+        stroke-dasharray: 3;
       }
     }
     .recharts-cartesian-axis-line {
@@ -24,7 +24,7 @@
       background-color: $dark-color06 !important;
       border-radius: 4px;
       color: $white;
-      opacity: .9;
+      opacity: 0.9;
     }
 
     .recharts-tooltip-item {
@@ -32,9 +32,9 @@
       line-height: 1.2em;
       white-space: break-spaces;
       &:before {
-        content: "•";
+        content: '•';
         font-size: 1.5em;
-        margin-right: .3em;
+        margin-right: 0.3em;
         vertical-align: middle;
       }
       & > span {

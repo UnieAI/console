@@ -17,7 +17,7 @@
  */
 module.exports = {
   KS_DESCRIPTION:
-    "KubeSphere, Kubernetes'in üzerinde kurumsal düzeyde multi-tenant konteyner platformu sağlamayı amaçlayan açık kaynaklı bir projedir. Kullanımı kolay arayüz ve tak-çıkar mimaride, günlük geliştirme, test ve bakım çalışmaları açısından Kubernetes'in öğrenme eğrisini ve işletme maliyetini azaltır.",
+    "UWS, 'zeka ile yönlendirilen verimlilik' ilkesini temel alarak KubeSphere üzerine inşa edilmiş yeni nesil bir AI bulut işletim sistemidir. Yenilikçi yaklaşımlar ile bulut yönetimi anlayışını yeniden tanımlamaktadır. Platform, UnieInfra ultra yüksek performanslı çıkarım motoru ve üretken yapay zeka teknolojilerini derinlemesine entegre ederek, akıllı hesaplama planlaması, otomatik operasyonlar ve yapay zeka uygulamalarının dağıtımı gibi uçtan uca yetenekler sunar. Yapay zeka odaklı mimarisi sayesinde UWS, sıfır engel ile AI entegrasyonu sağlar—50'den fazla önceden eğitilmiş model ve kullanıma hazır bir AI uygulama mağazası içererek işletmelerin tek tıklamayla RAG hizmetleri dağıtmasına olanak tanır.",
   REPS_ADDRESS: 'GitHub',
   ISSUE_FEEDBACK: 'Geri Bildirim',
   PART_IN_DISCUSSION: 'Forumlar',

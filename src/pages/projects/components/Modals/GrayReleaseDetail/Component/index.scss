@@ -81,8 +81,8 @@
     border-radius: 50%;
 
     &.running {
-      background-color: $green;
-      box-shadow: 0 4px 8px 0 rgba(85, 188, 138, 0.32);
+      background-color: $primary;
+      box-shadow: 0 4px 8px 0 rgba(38, 116, 240, 0.32);
     }
 
     &.updating {

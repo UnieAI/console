@@ -22,7 +22,7 @@ module.exports = {
   // Baisc Information
   PROVIDER: 'Sağlayıcı',
   KUBERNETES_VERSION: 'Kubernetes Sürümü',
-  KUBESPHERE_VERSION: 'KubeSphere sürümü',
+  KUBESPHERE_VERSION: 'UWS sürümü',
   VISIBILITY_PARTIAL: 'Bazı çalışma alanlarında görünür',
   VISIBILITY_PUBLIC: 'Tüm çalışma alanlarında görünür',
   CLUSTER_BASE_INFO_DESC:

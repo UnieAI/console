@@ -28,14 +28,14 @@ server:
   apiServer:
     clientID: kubesphere
     clientSecret: kubesphere
-    url: http://ks-apiserver
-    wsUrl: ws://ks-apiserver
+    url: https://uwsapi.unieai.com
+    wsUrl: wss://uwsapi.unieai.com
 
   # docker image search default url
   dockerHubUrl: https://hub.docker.com
 
 client:
-  title: KubeSphere
+  title: UWS | UnieAI Web Service
   description: ""
   encryptKey: kubesphere
 
@@ -43,9 +43,9 @@ client:
     kubesphere: 3.1.0
 
   # kubesphere urls
-  issueUrl: https://github.com/kubesphere/kubesphere/issues/new/choose
-  reposUrl: https://github.com/kubesphere/kubesphere
-  slackUrl: https://kubesphere.slack.com
+  issueUrl: https://github.com/unieai/uws/issues/new/choose
+  reposUrl: https://github.com/unieai/uws
+  slackUrl: https://uws.slack.com
   documents:
     en:
       url: https://kubesphere.io/docs

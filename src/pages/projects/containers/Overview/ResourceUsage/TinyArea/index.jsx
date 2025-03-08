@@ -31,7 +31,7 @@ import {
 } from 'recharts'
 import CustomTooltip from 'components/Charts/Custom/Tooltip'
 
-const AreaColors = ['green', 'blue', 'yellow', 'red']
+const AreaColors = ['primary', 'blue', 'yellow', 'red']
 
 export default class TinyArea extends React.Component {
   static propTypes = {
@@ -72,7 +72,7 @@ export default class TinyArea extends React.Component {
   renderArea() {
     const { unit, areaColors } = this.props
     const dot = {
-      stroke: '#55bc8a',
+      stroke: '#2674f0',
       strokeWidth: 1,
       fill: '#fff',
       fillOpacity: 1,

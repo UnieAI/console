@@ -8,7 +8,7 @@
   background: $dark-color06;
 
   svg {
-    fill: $green-color03;
+    fill: $blue-color06;
     fill-opacity: 0.6;
   }
 
@@ -29,17 +29,16 @@
         width: 28%;
         text-align: center;
       }
-
     }
 
     .wave {
       animation: waveSvgAnim 4s linear infinite;
     }
-    
+
     .wave2 {
       animation: waveSvgAnim 6s linear infinite;
     }
-    
+
     @keyframes waveSvgAnim {
       0% {
         transform: translateX(0px);
@@ -47,6 +46,6 @@
       100% {
         transform: translateX(-100px);
       }
-    }  
+    }
   }
 }

@@ -164,7 +164,7 @@ class EtcdMonitorings extends React.Component {
           `${MetricTypes.proposals_pending_count}.data.result[0]`
         ),
       ],
-      areaColors: ['blue', 'green', 'red', 'yellow'],
+      areaColors: ['blue', 'primary', 'red', 'yellow'],
     },
   ]
 

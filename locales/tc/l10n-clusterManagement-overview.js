@@ -22,10 +22,11 @@ module.exports = {
   // Baisc Information
   PROVIDER: '服務商',
   KUBERNETES_VERSION: 'Kubernetes 版本',
-  KUBESPHERE_VERSION: 'KubeSphere 版本',
+  KUBESPHERE_VERSION: 'UWS 版本',
   VISIBILITY_PARTIAL: '部分可見',
   VISIBILITY_PUBLIC: '公開',
-  CLUSTER_BASE_INFO_DESC: 'Basic information provides an overview of the cluster. You can view and edit cluster information.',
+  CLUSTER_BASE_INFO_DESC:
+    'Basic information provides an overview of the cluster. You can view and edit cluster information.',
   // System Components
   // Resource Usage
   MEMORY: '記憶體',
@@ -43,5 +44,5 @@ module.exports = {
   SCHEDULING_FAILURES: '調度失敗的容器組',
   SCHEDULING_FAILURE: '調度失敗的容器組',
   // Nodes
-  VIEW_MORE: '查看更多'
-};
+  VIEW_MORE: '查看更多',
+}

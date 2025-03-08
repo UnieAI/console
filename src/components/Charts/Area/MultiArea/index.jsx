@@ -42,7 +42,7 @@ import { getSuitableValue } from 'utils/monitoring'
 import styles from './index.scss'
 
 const AreaColors = [
-  'green',
+  'primary',
   'blue',
   'yellow',
   'red',

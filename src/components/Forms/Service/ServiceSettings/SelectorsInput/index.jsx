@@ -164,7 +164,7 @@ export default class SelectorsInput extends React.Component {
         <p className="inline-block">{tips}</p>
         &nbsp;
         <Tooltip content={popContent} trigger="click">
-          <a className="text-green">{t('VIEW_DETAILS')}</a>
+          <a className="text-primary">{t('VIEW_DETAILS')}</a>
         </Tooltip>
       </div>
     )

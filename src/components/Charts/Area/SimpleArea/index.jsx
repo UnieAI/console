@@ -42,7 +42,7 @@ import { getActiveSeries } from 'components/Charts/utils'
 import styles from './index.scss'
 
 const AreaColors = [
-  'green',
+  'primary',
   'blue',
   'yellow',
   'red',

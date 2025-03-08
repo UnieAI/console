@@ -10,7 +10,7 @@
   padding: 6px 8px 8px;
   border-radius: 2px;
   background-color: $dark-color07;
- 
+
   .title {
     @include TypographySymbolText(#fff);
 
@@ -22,7 +22,7 @@
   }
 
   &.selected {
-    background-color: $green-color05;
+    background-color: $blue-color06;
   }
 
   & + .cluster {
