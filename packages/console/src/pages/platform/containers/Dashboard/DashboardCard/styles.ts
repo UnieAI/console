@@ -21,7 +21,7 @@ export const Wrapper = styled.div`
     a:hover {
       .field-label,
       .field-value {
-        color: #55bc8a;
+        color: #5557bc;
       }
     }
 
@@ -36,7 +36,7 @@ export const Wrapper = styled.div`
     a:hover {
       .field-label,
       .field-value {
-        color: #55bc8a;
+        color: #5557bc;
       }
 
       .kubed-icon {

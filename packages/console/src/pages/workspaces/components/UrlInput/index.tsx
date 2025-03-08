@@ -206,7 +206,7 @@ function UrlInput({ formData, onChange, onValidate, isSubmitting }: Props): JSX.
           name={validateStatus}
           style={{
             color: '#ffffff',
-            fill: validateStatus === 'error' ? '#ea4641' : '#55bc8a',
+            fill: validateStatus === 'error' ? '#ea4641' : '#5557bc',
           }}
         />
       </Tooltip>

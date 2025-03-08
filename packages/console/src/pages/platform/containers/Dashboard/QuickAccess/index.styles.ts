@@ -80,7 +80,7 @@ export const Item = styled(Link)<{ $isDragging?: boolean; $isDragOver?: boolean 
       : css`
           &:hover {
             ${Title} {
-              color: #55bc8a;
+              color: #5557bc;
             }
           }
         `}

@@ -6,15 +6,57 @@
 import styled from 'styled-components';
 import { Button } from '@kubed/components';
 
+// export const LoginWrapper = styled.div`
+//   display: flex;
+//   justify-content: center;
+//   align-items: center;
+
+//   background-color: 	#FF0000;
+
+//   height: screen;
+
+//   .login-card {
+//     margin: 140px auto 40px;
+//     width: 320px;
+//     padding: 20px;
+//   }
+
+//   .login-alert {
+//     margin: 12px 0;
+//   }
+
+//   .login-form {
+//     label {
+//       height: 30px;
+//       font-weight: 600;
+//       color: ${({ theme }) => theme.palette.accents_7};
+//     }
+//   }
+
+//   //.mb12 {
+//   //  margin-bottom: 12px;
+//   //}
+//   //
+//   //.mt12 {
+//   //  margin-top: 12px;
+//   //}
+// `;
+
 export const LoginWrapper = styled.div`
   display: flex;
+  flex-direction: column;
+  gap: 20px;
   justify-content: center;
   align-items: center;
+  height: 100vh; // 確保佔滿整個視窗高度
+  width: 100vw; // 確保佔滿整個視窗寬度
 
   .login-card {
-    margin: 140px auto 40px;
     width: 320px;
     padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); // 增加陰影讓卡片更明顯
+    background: ${({ theme }) => theme.palette.background}; // 使用主題背景色
+    border-radius: 8px; // 圓角讓 UI 更柔和
   }
 
   .login-alert {
@@ -28,26 +70,18 @@ export const LoginWrapper = styled.div`
       color: ${({ theme }) => theme.palette.accents_7};
     }
   }
-
-  //.mb12 {
-  //  margin-bottom: 12px;
-  //}
-  //
-  //.mt12 {
-  //  margin-top: 12px;
-  //}
 `;
 
 export const LoginHeader = styled.a`
-  position: absolute;
-  top: 80px;
-  left: 50%;
-  transform: translateX(-50%);
+  // position: absolute;
+  // top: 80px;
+  // left: 50%;
+  // transform: translateX(-50%);
   z-index: 9;
 
   img {
-    width: 180px;
-    height: 40px;
+    width: 280px;
+    height: 50px;
   }
 `;
 

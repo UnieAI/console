@@ -27,7 +27,7 @@ const GlobalStyles = createGlobalStyle`
     color: #242e42;
 
     &:hover {
-      color: #55bc8a;
+      color: #5557bc;
     }
   }
 

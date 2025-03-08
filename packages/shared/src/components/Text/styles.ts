@@ -59,7 +59,7 @@ export const TextWrapper = styled.div`
     &:hover {
       .text {
         & > div {
-          color: #55bc8a;
+          color: #5557bc;
         }
       }
       .icon {

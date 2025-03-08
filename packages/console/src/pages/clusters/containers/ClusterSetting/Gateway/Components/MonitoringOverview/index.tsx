@@ -180,7 +180,7 @@ function MonitoringOverview() {
             categories={['SUCCESSFUL_REQUESTS', 'TOTAL']}
             showCenter={true}
             showRate={false}
-            colors={['#55BC8A', '#E3E9EF']}
+            colors={['#5557bc', '#E3E9EF']}
             renderCustomCenter={({ value }) => (
               <SimpleContent>
                 <p>{t('SUCCESSFUL_REQUESTS')}</p>

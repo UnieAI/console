@@ -47,7 +47,7 @@ export const Table = styled.div<{ transparent?: boolean }>`
     a {
       color: #79879c;
       &:hover {
-        color: #55bc8a;
+        color: #5557bc;
       }
     }
   }
