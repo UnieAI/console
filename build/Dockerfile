@@ -1,4 +1,4 @@
-FROM node:16.14-alpine3.15 as builder
+FROM node:18.20.7-alpine3.20 as builder
 
 WORKDIR /kubesphere
 ADD . /kubesphere/
@@ -25,7 +25,7 @@ RUN hack/version.sh > /out/version.txt
 ##############
 # Final Image
 ##############
-FROM node:16.14-alpine3.15 as base_os_context
+FROM node:18.20.7-alpine3.20 as base_os_context
 
 RUN adduser -D -g kubesphere -u 1002 kubesphere && \
     mkdir -p /opt/kubesphere/console && \
