@@ -180,7 +180,7 @@ export const githubLightStyles = css`
   }
 
   .github-light-markdown-body ::-webkit-input-placeholder {
-    color: inherit;
+    color: rgb(83,39,241)
     opacity: 0.54;
   }
 
@@ -429,7 +429,7 @@ export const githubLightStyles = css`
   }
 
   .github-light-markdown-body a:not([href]) {
-    color: inherit;
+color: rgb(83,39,241)
     text-decoration: none;
   }
 
@@ -1058,7 +1058,7 @@ export const githubLightStyles = css`
   .github-light-markdown-body .markdown-alert {
     padding: 8px 16px;
     margin-bottom: 16px;
-    color: inherit;
+color: rgb(83,39,241)
     border-left: 0.25em solid #d0d7de;
   }
 

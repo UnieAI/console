@@ -27,7 +27,7 @@ export const ToolbarWrapper = styled.div`
 export const OverlayTools = styled.div`
   &:hover {
     svg {
-      color: ${({ theme }) => theme.palette.colors.green[2]};
+      color: ${({ theme }) => theme.palette.colors.blue[0]};
     }
   }
 `;

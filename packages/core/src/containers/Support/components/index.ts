@@ -4,5 +4,5 @@
  */
 
 export * from './Community';
-export * from './KubeSphereEnterprise';
+export * from './UWSEnterprise';
 export * from './Footer';

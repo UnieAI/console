@@ -31,7 +31,7 @@ export const FullScreenModal = styled(Modal)`
         line-height: 20px;
         white-space: pre-wrap;
         &:hover {
-          color: #5557bc;
+          color: #4e5cf1;
         }
 
         strong {

@@ -24,7 +24,7 @@ export const DraftStatus = styled(StatusBox)`
 `;
 
 export const ReviewStatus = styled(StatusBox)`
-  border: 2px solid ${({ theme }) => theme.palette.colors.green[2]};
+  border: 2px solid ${({ theme }) => theme.palette.colors.blue[0]};
 `;
 
 export const SuspendedStatus = styled(StatusBox)`
@@ -37,7 +37,7 @@ export const SuspendedStatusIcon = styled(Substract)`
 
 export const PassedStatus = styled(Success)`
   color: #ffffff;
-  fill: ${({ theme }) => theme.palette.colors.green[2]};
+  fill: ${({ theme }) => theme.palette.colors.blue[0]};
 `;
 
 export const DeletedStatus = styled(Error)`

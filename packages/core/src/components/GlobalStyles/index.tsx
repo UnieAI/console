@@ -27,7 +27,7 @@ const GlobalStyles = createGlobalStyle`
     color: #242e42;
 
     &:hover {
-      color: #5557bc;
+      color: #4e5cf1;
     }
   }
 
@@ -37,7 +37,7 @@ const GlobalStyles = createGlobalStyle`
   }
 
   ::selection {
-    background-color: #369a6a;
+    background-color:rgb(83, 39, 241);
     color: #fff;
   }
 
@@ -50,8 +50,8 @@ const GlobalStyles = createGlobalStyle`
   }
 
   .kubed-icon__coloured {
-    color: #00aa72;
-    fill: #90e0c5;
+    color: #4e5cf1;
+    fill: #a6adf5;
   }
 
   .mt12 {
@@ -180,6 +180,38 @@ const GlobalStyles = createGlobalStyle`
       }
     }
   }
+  input[type="checkbox"] {
+    /* 重置瀏覽器預設樣式 */
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    /* 基礎樣式 */
+    width: 20px;
+    height: 20px;
+    border: 2px solid #4e5cf1; /* 繼承專案主色 */
+    background-color: white;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    /* 控制位置和形狀 */
+    display: inline-block;
+    vertical-align: middle;
+    position: relative;
+  }
+    input[type="checkbox"]:checked {
+    /* 勾選時的背景色 */
+    background-color: rgb(83, 39, 241) !important; /* 指定顏色 */
+    border-color: rgb(83, 39, 241) !important;
+  }
+    input[type="checkbox"]:checked::before {
+  background-color: rgb(83, 39, 241) !important; /* 指定顏色 */
+  content: attr(data-checked-content) !important; /* 如果需要改符號內容 */
+}
+
+/* 如果需要移除原有偽元素的其他樣式 */
+input[type="checkbox"]:checked::before {
+  background-image: none !important; /* 移除可能的背景圖片 */
+  border: none !important; /* 移除邊框 */
+}
 `;
 
 export default GlobalStyles;

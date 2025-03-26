@@ -69,7 +69,7 @@ export const TBody = styled.tbody`
 
       &.row-selected {
         & > td {
-          border-bottom: 1px solid #5557bc;
+          border-bottom: 1px solid #4e5cf1;
         }
       }
     }
@@ -82,15 +82,15 @@ export const TBody = styled.tbody`
 
     &.row-selected {
       & > td {
-        border-top: 1px solid #5557bc;
+        border-top: 1px solid #4e5cf1;
         background-color: #eff4f9;
 
         &:first-child {
-          border-left: 1px solid #5557bc;
+          border-left: 1px solid #4e5cf1;
         }
 
         &:last-child {
-          border-right: 1px solid #5557bc;
+          border-right: 1px solid #4e5cf1;
         }
       }
 
@@ -102,7 +102,7 @@ export const TBody = styled.tbody`
 
       & + tr {
         & > td {
-          border-top: 1px solid #5557bc;
+          border-top: 1px solid #4e5cf1;
         }
       }
     }

@@ -27,6 +27,6 @@ export const PageSize = styled.div`
 export const Divider = styled.div`
   width: 1px;
   height: 12px;
-  background: #e3e9ef;
+  background: #e4e3ef;
   margin: 0 12px;
 `;

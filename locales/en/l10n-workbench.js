@@ -36,7 +36,7 @@ module.exports = {
   PLATFORM_CLUSTER_DESC: 'Manage resources based on infrastructures.',
   USER_AND_ROLE_MANAGEMENT: 'Users and Roles',
   USER_AND_ROLE_MANAGEMENT_DESC: 'Manage users and roles on the platform.',
-  EXTENSION_DESC: 'Quick Access Entry for KubeSphere Extensions',
+  EXTENSION_DESC: 'Quick Access Entry for UWS Extensions',
   ALL_WORKSPACE: 'Workspace',
   ALL_WORKSPACE_PL: 'Workspaces',
   WORKBENCH_ALL_CLUSTER: 'Cluster',

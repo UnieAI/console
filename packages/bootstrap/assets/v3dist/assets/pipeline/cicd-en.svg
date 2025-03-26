@@ -1,12 +1,12 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="300" height="156" viewBox="0 0 300 156">
     <defs>
         <linearGradient id="a20fwy1yia" x1="4.083%" x2="100%" y1="100%" y2="100%">
-            <stop offset="0%" stop-color="#3B747A"/>
+            <stop offset="0%" stop-color="#3b427a"/>
             <stop offset="100%" stop-color="#326E93"/>
         </linearGradient>
         <linearGradient id="imu7404o1b" x1="50%" x2="50%" y1="0%" y2="100%">
             <stop offset="0%" stop-color="#326E93"/>
-            <stop offset="100%" stop-color="#3B747A"/>
+            <stop offset="100%" stop-color="#3b427a"/>
         </linearGradient>
         <linearGradient id="d6ciaha8bc" x1="4.083%" x2="100%" y1="100%" y2="100%">
             <stop offset="0%" stop-color="#242E42"/>
@@ -28,8 +28,8 @@
                         </g>
                         <g>
                             <g transform="translate(-547 -240) translate(75 208) translate(440) translate(32 32) translate(172 84)">
-                                <circle cx="22" cy="22" r="22" fill="#3B747A" fill-rule="nonzero" opacity=".2"/>
-                                <circle cx="22" cy="22" r="16" fill="#3B747A" fill-rule="nonzero"/>
+                                <circle cx="22" cy="22" r="22" fill="#3b427a" fill-rule="nonzero" opacity=".2"/>
+                                <circle cx="22" cy="22" r="16" fill="#3b427a" fill-rule="nonzero"/>
                                 <g fill="#FFF" opacity=".9">
                                     <g>
                                         <path d="M4.014 11.28c-.569 0-1.086-.453-1.086-1.007 0-.554.466-1.007 1.086-1.007.621 0 1.087.453 1.087 1.007 0 .554-.517 1.008-1.087 1.008zm13.348-5.489c-.104-.805-.621-1.46-1.294-1.964l-.258-.201-.207.252c-.414.453-.57 1.259-.518 1.863.052.453.207.906.466 1.259-.207.1-.466.201-.673.302-.465.151-.93.202-1.396.202H.082l-.051.302c-.103.957.052 1.964.466 2.87l.207.353v.05C1.945 13.094 4.17 14 6.6 14c4.656 0 8.484-1.964 10.295-6.194 1.19.05 2.38-.252 2.949-1.36L20 6.194l-.259-.15c-.672-.404-1.603-.454-2.38-.253zm-6.674-.805H8.67V6.95h2.018V4.986zm0-2.468H8.67v1.964h2.018V2.518zm0-2.518H8.67v1.964h2.018V0zm2.483 4.986h-2.017V6.95h2.017V4.986zm-7.501 0H3.652V6.95H5.67V4.986zm2.535 0H6.187V6.95h2.018V4.986zm-5.018 0H1.169V6.95h2.018V4.986zm5.018-2.468H6.187v1.964h2.018V2.518zm-2.535 0H3.652v1.964H5.67V2.518z" transform="translate(10 10) translate(2 5)"/>

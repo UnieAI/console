@@ -1,7 +1,7 @@
 {
   "name": "@ks-console/server",
   "version": "4.1.1",
-  "description": "BFF of KubeSphere Console",
+  "description": "BFF of UWS Console",
   "homepage": "",
   "repository": {
     "type": "git",

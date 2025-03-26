@@ -1,6 +1,6 @@
 /*
  * Please refer to the LICENSE file in the root directory of the project.
- * https://github.com/kubesphere/console/blob/master/LICENSE
+ * https://github.com/UWS/console/blob/master/LICENSE
  */
 
 module.exports = {
@@ -34,7 +34,7 @@ module.exports = {
   COST: 'Cost',
   ADD_CONTAINER: 'Add Container',
   ADD_CONTAINER_DESC:
-    'KubeSphere admite la extracción de imágenes de los Registros de imágenes y la creación de nuevas imágenes a través del código fuente (Fuente a imagen).',
+    'UWS admite la extracción de imágenes de los Registros de imágenes y la creación de nuevas imágenes a través del código fuente (Fuente a imagen).',
   CONTAINERS: 'Imagen de contenedor',
   IMAGE_TIME_SIZE_LAYER: 'Updated {time}',
   IMAGE_DESC:

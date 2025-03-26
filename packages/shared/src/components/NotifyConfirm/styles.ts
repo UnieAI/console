@@ -156,7 +156,7 @@ export const Title = styled.div`
     margin-right: 6px;
     svg {
       --primary-color: #{#fff};
-      --secondary-color: #{${({ theme }) => theme.palette.colors.green[2]}};
+      --secondary-color: #{${({ theme }) => theme.palette.colors.blue[0]}};
     }
   }
 `;

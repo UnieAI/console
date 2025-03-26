@@ -8,8 +8,8 @@ module.exports = {
   PLATFORM_ROLE_PL: 'Roles de Plataforma',
   // List
   PLATFORM_ROLE_EMPTY_DESC: 'Por favor, cree un rol de plataforma.',
-  ROLE_USERS_MANAGER: 'Maneje todos los usuarios en la plataforma KubeSphere.',
-  ROLE_WORKSPACES_MANAGER: 'Maneje todos los espacios de trabajo en la plataforma KubeSphere.',
+  ROLE_USERS_MANAGER: 'Maneje todos los usuarios en la plataforma UWS.',
+  ROLE_WORKSPACES_MANAGER: 'Maneje todos los espacios de trabajo en la plataforma UWS.',
   ROLE_PLATFORM_ADMIN:
     'Administrador de la plataforma que puede administrar todos los recursos en la plataforma.',
   ROLE_PLATFORM_REGULAR:
@@ -54,8 +54,7 @@ module.exports = {
   // List > Create > Edit Permissions > Platform Settings
   PERMIGROUP_PLATFORM_SETTINGS: 'Configuración de la plataforma',
   PERMISSION_PLATFORM_SETTINGS_MANAGEMENT: 'Platform Settings Management',
-  PERMISSION_PLATFORM_SETTINGS_MANAGEMENT_DESC:
-    'View and edit settings of the KubeSphere platform.',
+  PERMISSION_PLATFORM_SETTINGS_MANAGEMENT_DESC: 'View and edit settings of the UWS platform.',
   // List > Edit Information
   // List > Edit Permissions
   // List > Delete

@@ -21,7 +21,7 @@ export const Wrapper = styled.div`
       padding: 12px;
       border-radius: 4px;
       background-color: #ffffff;
-      border: solid 1px #e3e9ef;
+      border: solid 1px #e4e3ef;
     }
 
     & + li {

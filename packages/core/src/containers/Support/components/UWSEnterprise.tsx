@@ -19,7 +19,7 @@ import {
   Feature,
   FeatureTitle,
   Background,
-} from './KubeSphereEnterprise.styles';
+} from './UWSEnterprise.styles';
 
 const { getConfigSupportLink } = useUrl({ module: '' });
 
@@ -41,7 +41,7 @@ const KSE_FEATURES = [
   },
 ];
 
-export function KubeSphereEnterprise() {
+export function UWSEnterprise() {
   const { isOnline } = useMarketplaceConfigQuery({
     isIgnoreErrorNotify: true,
   });

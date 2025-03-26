@@ -25,8 +25,8 @@ export const DefaultWrapper = styled.div`
 
       &:hover {
         svg {
-          color: #00aa72;
-          fill: #90e0c5;
+          color: #4e5cf1;
+          fill: #a6adf5;
         }
       }
     }

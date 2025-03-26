@@ -49,7 +49,7 @@ export const AlertWrapper = styled.div`
   align-items: center;
   padding: 12px;
   border-radius: 4px;
-  background-color: #c7deef;
+  background-color: rgb(40, 151, 237);
   margin-bottom: 12px;
 `;
 
@@ -105,7 +105,7 @@ export const ActionButton = styled.div`
     background-color: #eff4f9;
   }
   &:active {
-    background-color: #e3e9ef;
+    background-color: #e4e3ef;
   }
 `;
 

@@ -64,7 +64,7 @@ export const FeedbackItem = styled.div`
   }
 `;
 export const ContactWrapper = styled.div`
-  border-top: 1px solid #e3e9ef;
+  border-top: 1px solid #e4e3ef;
   padding: 12px 8px 8px 8px;
 `;
 export const ContactContent = styled.div`
@@ -102,6 +102,6 @@ export const SlackButton = styled.a`
   justify-self: center;
   &:hover {
     color: #36435c;
-    background: #e3e9ef;
+    background: #e4e3ef;
   }
 `;

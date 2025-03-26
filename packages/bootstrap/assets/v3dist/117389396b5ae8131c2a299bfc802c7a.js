@@ -694,7 +694,7 @@ dom.importCssString(".normal-mode .ace_cursor{\
   z-index: 15;\
   padding: .1em .8em;\
   overflow: hidden;\
-  color: inherit;\
+  color: rgb(83,39,241)\
 }\
 .ace_dialog-top {\
   border-bottom: 1px solid #444;\
@@ -709,7 +709,7 @@ dom.importCssString(".normal-mode .ace_cursor{\
   outline: none;\
   background: transparent;\
   width: 20em;\
-  color: inherit;\
+  color: rgb(83,39,241)\
   font-family: monospace;\
 }", "vimMode");
 (function() {

@@ -90,11 +90,11 @@ export const MenuItem = styled.div`
 
   &:hover,
   &.active {
-    color: ${({ theme }) => theme.palette.colors.green[2]};
+    color: ${({ theme }) => theme.palette.colors.blue[0]};
 
     svg {
-      color: #00aa72;
-      fill: #90e0c5;
+      color: #4e5cf1;
+      fill: #a6adf5;
     }
   }
 

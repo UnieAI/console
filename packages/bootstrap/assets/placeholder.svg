@@ -13,9 +13,9 @@
 <line x1="3.61054" y1="3.73242" x2="44.1985" y2="44.3204" stroke="#EFF4F9" stroke-width="0.6" stroke-linecap="round"/>
 <line x1="44.2889" y1="3.75947" x2="3.59625" y2="44.4587" stroke="#EFF4F9" stroke-width="0.6" stroke-linecap="round"/>
 <rect x="2.3" y="2.38057" width="43.4" height="43.4" rx="9.7" stroke="#CCD3DB" stroke-width="0.6"/>
-<circle cx="24.001" cy="24.062" r="18.8265" stroke="#E3E9EF" stroke-width="0.6"/>
-<circle cx="24.0009" cy="24.0833" r="11.4308" stroke="#E3E9EF" stroke-width="0.6"/>
-<circle cx="24" cy="24.0806" r="8.07634" stroke="#E3E9EF" stroke-width="0.6"/>
+<circle cx="24.001" cy="24.062" r="18.8265" stroke="#e4e3ef" stroke-width="0.6"/>
+<circle cx="24.0009" cy="24.0833" r="11.4308" stroke="#e4e3ef" stroke-width="0.6"/>
+<circle cx="24" cy="24.0806" r="8.07634" stroke="#e4e3ef" stroke-width="0.6"/>
 </g>
 <defs>
 <clipPath id="clip0_5160_399035">

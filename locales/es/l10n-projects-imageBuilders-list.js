@@ -42,7 +42,7 @@ module.exports = {
   TRIGGER_TOKEN: 'Secret Code',
   INVALID_TRIGGER_TOKEN_DESC: 'It can only contain upper and lower case letters, numbers.',
   TRIGGER_TOKEN_DESC:
-    'Set a token used to authenticate a client against KubeSphere when the client attempts to trigger image building on KubeSphere. The token can contain only uppercase letters, lowercase letters, and numbers.',
+    'Set a token used to authenticate a client against UWS when the client attempts to trigger image building on UWS. The token can contain only uppercase letters, lowercase letters, and numbers.',
   CODE_RELATIVE_PATH: 'Ruta relativa del código (opcional):',
   CODE_RELATIVE_PATH_DESC:
     'Especifica un directorio relativo dentro de la aplicación. (Valor por defecto /)',

@@ -79,7 +79,7 @@ function getIcons() {
   return {
     notInstalled: <Information size={size} fill="#f5a623" color="#fff" />,
     loading: <Loading size={size} variant="circle2" color="yellow" />,
-    success: <Success size={size} fill="#5557bc" color="#fff" />,
+    success: <Success size={size} fill="#4e5cf1" color="#fff" />,
     failure: <Failure size={size} fill="#ca2621" color="#fff" />,
     exception: <Warning size={size} fill="#f5a623" color="#fff" />,
   };

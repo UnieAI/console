@@ -7,33 +7,33 @@
 <rect x="71.8845" y="124.673" width="17.3176" height="2.75976" transform="rotate(-27.161 71.8845 124.673)" fill="#D8DEE5"/>
 <rect x="89.7782" y="115.492" width="12.2541" height="2.75976" transform="rotate(-27.161 89.7782 115.492)" fill="#D8DEE5"/>
 <rect x="44.1316" y="70.5825" width="17.3176" height="2.75976" rx="1" transform="rotate(-27.161 44.1316 70.5825)" fill="#D8DEE5"/>
-<path d="M52.3553 87.1491L105.594 59.8339" stroke="#E3E9EF" stroke-width="3.21144" stroke-linecap="round"/>
-<path d="M60.8033 102.182L114.042 74.8671" stroke="#E3E9EF" stroke-width="3.21144"/>
-<path d="M64.8347 110.039L118.073 82.7241" stroke="#E3E9EF" stroke-width="3.21144"/>
+<path d="M52.3553 87.1491L105.594 59.8339" stroke="#e4e3ef" stroke-width="3.21144" stroke-linecap="round"/>
+<path d="M60.8033 102.182L114.042 74.8671" stroke="#e4e3ef" stroke-width="3.21144"/>
+<path d="M64.8347 110.039L118.073 82.7241" stroke="#e4e3ef" stroke-width="3.21144"/>
 </g>
 <g filter="url(#filter1_d)">
 <path d="M93.6342 20.0711C90.6243 18.8854 87.2231 20.3642 86.0374 23.3741L59.1221 93.6033C57.9364 96.6132 59.4151 100.014 62.425 101.2L133.121 129.05C136.131 130.236 139.532 128.757 140.718 125.747L159.762 75.4986L152.359 72.5823C145.025 69.6931 141.421 61.4053 144.311 54.0711L149.097 41.9201L93.6342 20.0711Z" fill="white"/>
-<path d="M149.097 41.9205L159.333 76.589L151.93 73.6727C144.595 70.7834 140.992 62.4957 143.881 55.1615L149.097 41.9205Z" fill="#E3E9EF"/>
+<path d="M149.097 41.9205L159.333 76.589L151.93 73.6727C144.595 70.7834 140.992 62.4957 143.881 55.1615L149.097 41.9205Z" fill="#e4e3ef"/>
 <rect x="94.1467" y="35.0397" width="38.7428" height="2.92875" transform="rotate(21.5014 94.1467 35.0397)" fill="#D8DEE5"/>
 <rect x="67.677" y="102.231" width="18.3781" height="2.92875" transform="rotate(21.5014 67.677 102.231)" fill="#D8DEE5"/>
 <rect x="87.536" y="110.054" width="13.0045" height="2.92875" transform="rotate(21.5014 87.536 110.054)" fill="#D8DEE5"/>
 <rect x="91.3242" y="42.203" width="18.3781" height="2.92875" transform="rotate(21.5014 91.3242 42.203)" fill="#D8DEE5"/>
-<path d="M83.8884 60.3678L142.971 83.6424" stroke="#E3E9EF" stroke-width="3.21144" stroke-linecap="round"/>
-<path d="M80.9888 67.858L140.071 91.1327" stroke="#E3E9EF" stroke-width="3.21144" stroke-linecap="round"/>
-<path d="M77.8313 77.6357L136.913 100.91" stroke="#E3E9EF" stroke-width="3.21144"/>
-<path d="M74.3962 86.3553L133.478 109.63" stroke="#E3E9EF" stroke-width="3.21144"/>
+<path d="M83.8884 60.3678L142.971 83.6424" stroke="#e4e3ef" stroke-width="3.21144" stroke-linecap="round"/>
+<path d="M80.9888 67.858L140.071 91.1327" stroke="#e4e3ef" stroke-width="3.21144" stroke-linecap="round"/>
+<path d="M77.8313 77.6357L136.913 100.91" stroke="#e4e3ef" stroke-width="3.21144"/>
+<path d="M74.3962 86.3553L133.478 109.63" stroke="#e4e3ef" stroke-width="3.21144"/>
 </g>
 <g filter="url(#filter2_d)">
 <path d="M61.1251 24.809C58.0768 24.809 55.6056 27.2802 55.6056 30.3285V126.348C55.6056 129.396 58.0768 131.868 61.1251 131.868H132.725C135.773 131.868 138.244 129.396 138.244 126.348L138.244 50.5648H131.57C123.687 50.5648 117.297 44.1745 117.297 36.2917V24.809H61.1251Z" fill="white"/>
-<path d="M117.298 24.809L138.245 51.6687H131.571C123.688 51.6687 117.298 45.2784 117.298 37.3956V24.809Z" fill="#E3E9EF"/>
+<path d="M117.298 24.809L138.245 51.6687H131.571C123.688 51.6687 117.298 45.2784 117.298 37.3956V24.809Z" fill="#e4e3ef"/>
 <rect x="66.7449" y="37.7555" width="36.5073" height="2.75976" rx="1" fill="#D8DEE5"/>
-<rect x="66.7449" y="111.876" width="17.3176" height="2.75976" rx="1" fill="#E3E9EF"/>
-<rect x="86.8573" y="111.876" width="12.2541" height="2.75976" rx="1" fill="#E3E9EF"/>
+<rect x="66.7449" y="111.876" width="17.3176" height="2.75976" rx="1" fill="#e4e3ef"/>
+<rect x="86.8573" y="111.876" width="12.2541" height="2.75976" rx="1" fill="#e4e3ef"/>
 <rect x="66.7449" y="45.0099" width="17.3176" height="2.75976" rx="1" fill="#D8DEE5"/>
-<rect x="67.7449" y="69.0379" width="59.0262" height="34.4989" rx="2" stroke="#E3E9EF" stroke-width="2"/>
-<path d="M67.1525 77.4236H126.99" stroke="#E3E9EF" stroke-width="2"/>
-<path d="M67.1525 86.2547H126.99" stroke="#E3E9EF" stroke-width="2"/>
-<path d="M67.1525 95.0859H126.99" stroke="#E3E9EF" stroke-width="2"/>
+<rect x="67.7449" y="69.0379" width="59.0262" height="34.4989" rx="2" stroke="#e4e3ef" stroke-width="2"/>
+<path d="M67.1525 77.4236H126.99" stroke="#e4e3ef" stroke-width="2"/>
+<path d="M67.1525 86.2547H126.99" stroke="#e4e3ef" stroke-width="2"/>
+<path d="M67.1525 95.0859H126.99" stroke="#e4e3ef" stroke-width="2"/>
 </g>
 <path d="M93.6791 54.5591C85.2758 60.004 79.6829 63.1016 72.4177 64.8257C71.0255 65.1561 70.0687 66.4713 70.2797 67.8865C74.1537 93.8725 80.043 104.732 95.4465 115.049C96.3372 115.645 97.505 115.63 98.3836 115.015C114.417 103.806 120.669 93.3522 123.681 67.6408C123.835 66.3286 122.989 65.1085 121.721 64.7388C113.485 62.3383 108.036 59.3827 100.209 54.5022C98.207 53.2536 95.6595 53.2759 93.6791 54.5591Z" fill="url(#paint0_linear)"/>
 <mask id="mask0" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="76" y="60" width="41" height="48">

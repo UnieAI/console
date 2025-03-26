@@ -88,7 +88,7 @@ export const Item = styled.div<IItem>`
 
       .ring {
         display: block;
-        border: 3px solid ${({ theme }) => theme.palette.colors.green[2]};
+        border: 3px solid ${({ theme }) => theme.palette.colors.blue[0]};
         box-shadow: 0 4px 8px rgba(85, 188, 138, 0.2);
       }
     `}

@@ -21,7 +21,7 @@ export const Wrapper = styled.div`
     a:hover {
       .field-label,
       .field-value {
-        color: #5557bc;
+        color: #4e5cf1;
       }
     }
 
@@ -36,12 +36,12 @@ export const Wrapper = styled.div`
     a:hover {
       .field-label,
       .field-value {
-        color: #5557bc;
+        color: #4e5cf1;
       }
 
       .kubed-icon {
-        color: #00aa72;
-        fill: #90e0c5;
+        color: #4e5cf1;
+        fill: #a6adf5;
       }
     }
   }
@@ -76,8 +76,8 @@ export const TopWrapper = styled.div`
         span {
           margin-left: 8px;
           border-radius: 4px;
-          background: linear-gradient(129deg, #ef8 0%, #45ff4c 100%);
-          color: #404f68;
+          background: linear-gradient(129deg, #4e5cf1 0%, rgb(99, 209, 234) 100%);
+          color: rgb(255, 255, 255);
           font-family: Inter;
           font-size: 12px;
           font-weight: 600;

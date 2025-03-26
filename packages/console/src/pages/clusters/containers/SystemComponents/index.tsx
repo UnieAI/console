@@ -40,7 +40,7 @@ function ServiceComponents() {
   const allComponentTypes = [
     {
       type: 'kubesphere',
-      title: 'KubeSphere',
+      title: 'UWS',
       icon: '/assets/kubesphere.svg',
     },
     {

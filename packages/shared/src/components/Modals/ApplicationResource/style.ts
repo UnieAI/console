@@ -66,7 +66,7 @@ export const TableWrapper = styled.div`
 
 export const TableBox = styled.div`
   border-radius: 4px;
-  border: 1px solid #e3e9ef;
+  border: 1px solid #e4e3ef;
   background-color: #fff;
   overflow: hidden;
 
@@ -83,7 +83,7 @@ export const TableTitle = styled.div`
   padding: 12px 20px;
   line-height: 24px;
   font-weight: 600;
-  border-bottom: 1px solid #e3e9ef;
+  border-bottom: 1px solid #e4e3ef;
   background-color: #f9fbfd;
 `;
 

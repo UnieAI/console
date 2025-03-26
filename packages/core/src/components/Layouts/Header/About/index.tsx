@@ -21,7 +21,7 @@ export default function About() {
         </div>
         <Description>{t('KS_DESCRIPTION')}</Description>
         <strong>
-          KubeSphere {t('VERSION')} : {ksVersion}
+          UWS {t('VERSION')} : {ksVersion}
         </strong>
       </DescriptionWrapper>
       <Links>

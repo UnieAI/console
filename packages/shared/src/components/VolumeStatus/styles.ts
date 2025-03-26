@@ -21,7 +21,7 @@ export const ContainerStyle = styled.div`
   background: #36435c;
 
   svg {
-    fill: #5557bc;
+    fill: #4e5cf1;
     fill-opacity: 0.6;
   }
 `;

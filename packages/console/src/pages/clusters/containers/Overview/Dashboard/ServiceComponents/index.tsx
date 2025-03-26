@@ -32,7 +32,7 @@ function ServiceComponents({ cluster }: Props) {
   const configs = [
     {
       type: 'kubesphere',
-      title: 'KubeSphere',
+      title: 'UWS',
     },
     {
       type: 'kubernetes',

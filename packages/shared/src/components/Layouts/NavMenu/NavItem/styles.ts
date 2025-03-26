@@ -33,16 +33,16 @@ export const ItemWrapper = styled.li`
   }
 
   &.is-select {
-    color: #5557bc;
+    color: #4e5cf1;
 
     .title-wrapper,
     .item-link {
-      color: #5557bc;
+      color: #4e5cf1;
     }
 
     .kubed-icon.item-icon {
-      color: #00aa72;
-      fill: #90e0c5;
+      color: #4e5cf1;
+      fill: #a6adf5;
     }
   }
 
@@ -126,7 +126,7 @@ export const InnerItem = styled.li`
 
   &.is-select {
     a {
-      color: #5557bc;
+      color: #4e5cf1;
     }
   }
 

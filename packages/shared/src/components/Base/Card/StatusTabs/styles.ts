@@ -28,7 +28,7 @@ export const Tab = styled.div`
   cursor: pointer;
 
   &.active {
-    background-color: ${({ theme }) => theme.palette.colors.green[2]};
+    background-color: ${({ theme }) => theme.palette.colors.blue[0]};
   }
 
   &:not(:first-child) {

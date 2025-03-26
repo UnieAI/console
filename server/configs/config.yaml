@@ -48,7 +48,7 @@ server:
 
 client:
   title: UWS | UnieAI Web Service
-  description: '**UWS智能云原生平台** 是基于KubeSphere构建的下一代企业级AI云操作系统，以革新性突破重新定义云管理范式。平台深度集成自研**UnieInfra超高性能推理引擎**（业界领先的512并发下25 tokens/秒吞吐能力，较传统方案降低70%硬件成本），并融合生成式AI技术，提供从智能算力调度、自动化运维到AI应用落地的全栈能力。通过**AI原生架构**，平台实现“零门槛”AI赋能——内置50+预训练模型与开箱即用的AI应用商店，支持企业一键部署智能客服、文档分析等场景化服务；独创的**AI SaaS工厂**可快速构建定制化MaaS/RAG服务，结合动态资源优化与多租户管理，将千人规模AI服务硬件投入压缩至30万级，应用交付周期从周级缩短至4小时。UWS以“智能驱动效率”为核心，为企业提供兼具极致性能与成本优势的云原生基础设施，成为AI规模化落地的行业标杆引擎。'
+  description: "UnieAI Generative AI Cloud Service (UWS) leverages Kubernetes, dynamic resource management, and a multi-tenant architecture, combined with the UnieInfra cross-platform inference engine, to achieve zero-threshold, ultra-low-cost, and highly efficient AI deployment . Through UnieAI's cross-platform compilation technology, UWS supports integration with CPUs and GPUs from various brands on the market, and is compatible with popular large language models such as Llama, Mistral, Qwen, Gemma, along with FP8 and INT4 quantization high-speed inference."
   encryptKey: kubesphere
 
   version:
@@ -70,6 +70,8 @@ client:
 
   # current support lanaguages
   supportLangs:
+    - label: '繁體中文'
+      value: 'tw-zh'
     - label: '简体中文'
       value: 'zh'
     - label: 'English'

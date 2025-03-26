@@ -59,13 +59,13 @@ export const TextWrapper = styled.div`
     &:hover {
       .text {
         & > div {
-          color: #5557bc;
+          color: #4e5cf1;
         }
       }
       .icon {
         :global .kubed-icon {
-          color: #00aa72;
-          fill: #90e0c5;
+          color: #4e5cf1;
+          fill: #a6adf5;
         }
       }
     }

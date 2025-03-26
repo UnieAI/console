@@ -60,7 +60,7 @@ const ProfileMenu = ({ isLogin }: ProfileMenuProps) => {
     return (
       <NotLogin>
         <Human className="icon-human" />
-        <a href={`/login?referer=${location.pathname}`}>{t('Log in KubeSphere')}</a>
+        <a href={`/login?referer=${location.pathname}`}>{t('Log in UWS')}</a>
       </NotLogin>
     );
   }

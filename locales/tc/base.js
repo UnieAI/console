@@ -89,7 +89,7 @@ module.exports = {
   'Event metadata': 'Event Metadata',
   EVENT_SEARCH: 'Event Search',
   EVENT_DESC:
-    'Event search (Event) is a historical event query for platform resources provided by KubeSphere',
+    'Event search (Event) is a historical event query for platform resources provided by UWS',
   Events: 'Events',
   events: 'Events',
   exists: 'Exists',
@@ -315,14 +315,14 @@ module.exports = {
   NAV_ACCOUNTS: 'Account Management',
   'rules text': 'How to define operation auditing collection rules? 🤔',
   'rules desc':
-    'KubeSphere can collect operation audits based on the rules you set. Click to see how to define rules.',
+    'UWS can collect operation audits based on the rules you set. Click to see how to define rules.',
   EVENT_CREATE_DESC: 'You can change the search criteria to query again.',
   TOOLBOX_KUBECTL_DESC: 'Command line tool for operating multiple clusters',
   PLATFORM_SETTINGS_SELECTOR_DESC: 'Customize the system configuration of the platform',
   FILE_OVERSIZED_TIP: 'File too large, cannot upload files larger than 2M!',
-  USER_GUIDES_DESC: 'The most comprehensive KubeSphere user guides',
+  USER_GUIDES_DESC: 'The most comprehensive UWS user guides',
   DEVELOPER_DESC: 'Get help by raising questions in the developer community',
-  API_DOCS_DESC: 'The most comprehensive KubeSphere API documentation',
+  API_DOCS_DESC: 'The most comprehensive UWS API documentation',
   GITHUB_ISSUES_DESC: 'Get help by raising issues on GitHub',
   // Workbench
   // Container Details Page

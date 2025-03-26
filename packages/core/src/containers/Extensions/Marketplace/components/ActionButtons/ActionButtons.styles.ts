@@ -29,7 +29,7 @@ export const DetailActionButton = styled(Button).attrs({ color: 'secondary' })`
 `;
 
 export const ListSubscribeButton = styled(ListActionButton)`
-  color: #5557bc;
+  color: #4e5cf1;
 `;
 
 export const ListManageButton = styled(ListActionButton)`

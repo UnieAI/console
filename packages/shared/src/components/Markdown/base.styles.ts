@@ -8,7 +8,7 @@ import { css } from 'styled-components';
 export const baseStyles = css`
   ul,
   ol {
-    color: inherit;
+color: rgb(83,39,241)
   }
 
   ul {
@@ -20,7 +20,7 @@ export const baseStyles = css`
   }
 
   code {
-    color: inherit;
+color: rgb(83,39,241)
 
     &::before,
     &::after {

@@ -4,8 +4,8 @@
  */
 
 module.exports = {
-  QKCP_TITLE: 'KubeSphere Enterprise',
-  KS_FEATURE_DESC: 'KubeSphere Enterprise has the following features:',
+  QKCP_TITLE: 'UWS Enterprise',
+  KS_FEATURE_DESC: 'UWS Enterprise has the following features:',
   ks_QKCP_DESC_1: 'Strong commercial technical support',
   ks_QKCP_DESC_2: 'Highly integrated, easy-to-use graphical interface',
   ks_QKCP_DESC_3: 'Convenient enterprise operation empowerment solution',

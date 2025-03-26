@@ -33,7 +33,7 @@ export const PVContentStyle = styled.div`
     align-items: center;
 
     &:hover {
-      background: #e3e9ef;
+      background: #e4e3ef;
       border-radius: 4px;
       cursor: pointer;
     }

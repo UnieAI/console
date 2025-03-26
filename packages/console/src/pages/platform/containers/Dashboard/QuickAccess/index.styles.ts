@@ -15,7 +15,7 @@ const commonFont = css`
 
 const commonColor = '#79879c';
 const hoverBoxShadow = '0px 4px 8px 0px rgba(36, 46, 66, 0.2)';
-const commonBorder = '1px solid #e3e9ef';
+const commonBorder = '1px solid #e4e3ef';
 const commonPadding = '12px 20px 20px';
 
 export const Wrapper = styled.div<{ overHidden?: boolean }>`
@@ -80,7 +80,7 @@ export const Item = styled(Link)<{ $isDragging?: boolean; $isDragOver?: boolean 
       : css`
           &:hover {
             ${Title} {
-              color: #5557bc;
+              color: #4e5cf1;
             }
           }
         `}
@@ -103,7 +103,7 @@ export const Footer = styled.div`
   color: #36435c;
   ${commonFont}
   font-weight: 600;
-  box-shadow: 0px 1px 0px 0px #e3e9ef inset;
+  box-shadow: 0px 1px 0px 0px #e4e3ef inset;
 `;
 
 export const Icon = styled.div`
