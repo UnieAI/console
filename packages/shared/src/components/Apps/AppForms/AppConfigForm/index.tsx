@@ -9,6 +9,7 @@ import { CodeEditor } from '@kubed/code-editor';
 import { Alert, Form, Loading, Switch, useForm } from '@kubed/components';
 
 import SchemaForm from './SchemaForm';
+import { useCacheStore as useStore } from '../../../../index';
 import { yaml, parser } from '../../../../utils';
 import { openpitrixStore } from '../../../../stores';
 import type { AppConfigDetail } from '../../../../types';
@@ -42,6 +43,7 @@ function AppConfigForm(
     valuesJSON: {},
     valuesSchema: undefined,
   });
+  const [, setValuesJSON] = useStore<any>('valuesJSON');
 
   function handleModeChange(): void {
     setIsCodeMode(!isCodeMode);
@@ -63,13 +65,16 @@ function AppConfigForm(
     const file = files?.['all.yaml'] || files?.['values.yaml'];
 
     if (file) {
+      const values = yaml.load(file);
       setConfig({
         valuesYaml: file,
-        valuesJSON: yaml.load(file),
+        valuesJSON: values,
         valuesSchema: parser.safeParseJSON(files['values.schema.json']),
       });
+
+      setValuesJSON(values);
     }
-  }, [files, isLoading]);
+  }, [files, isLoading, setValuesJSON]);
 
   useImperativeHandle(ref, () => {
     const { valuesYaml, valuesJSON, valuesSchema } = config;
