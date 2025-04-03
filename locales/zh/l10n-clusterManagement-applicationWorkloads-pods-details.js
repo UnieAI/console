@@ -38,7 +38,7 @@ module.exports = {
   // Resource Status > Details > Container Details > Monitoring
   // Resource Status > Details > Container Details > Environment Variables
   // Resource Status > Details > Container Details > Container Logs
-  NO_LOG_DATA_FOUND: '未发现日志数据',
+  NO_LOG_DATA_FOUND: '未發現日志数据',
   NO_LOG_DATA_FOUND_TIP: '没有找到日志数据。',
   // Resource Status > Volumes
   VOLUME_PL: '卷',
@@ -52,7 +52,7 @@ module.exports = {
   UPDATED_AT_VALUE: '更新时间：{value}',
   // Metadata
   // Monitoring
-  NO_MONITORING_DATA: '未发现监控数据',
+  NO_MONITORING_DATA: '未發現监控数据',
   OUTBOUND: '出站',
   INBOUND: '入站',
 };

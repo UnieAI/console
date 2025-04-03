@@ -40,7 +40,7 @@ function ResourceItem({ name, unitType, used, total }: Props) {
           category="value"
           width={48}
           height={48}
-          colors={['#329dce', '#c7deef']}
+          colors={['#329dce', '#3643f5']}
           stroke="transparent"
           innerRadius={60}
           outerRadius={100}

@@ -4,11 +4,11 @@
  */
 
 module.exports = {
-  // Banner
-  APPS: '应用',
-  APP_STORE_MANAGEMENT: '应用商店管理',
-  APP_STORE_DESC: '管理应用商店中的应用。您可以查看应用的信息并上架或下架应用。',
-  // List
-  APP_CATEGORY: '应用分类',
-  APP_EMPTY_DESC: '请在企业空间中创建应用模板并将其发布到应用商店。',
+  // 簡介
+  APPS: '應用',
+  APP_STORE_MANAGEMENT: '應用商店管理',
+  APP_STORE_DESC: '管理應用商店中的應用。您可以查看應用資訊並上架或下架應用。',
+  // 列表
+  APP_CATEGORY: '應用分類',
+  APP_EMPTY_DESC: '請在企業空間中建立應用模板並將其發佈到應用商店。',
 };

@@ -19,8 +19,7 @@ import {
   FilterItemNameInner,
   FilterItemCount,
 } from './Filters.styles';
-import { CheckboxGroup } from '../../UnieAI/CheckboxGroup';
-import { Checkbox } from '../../UnieAI/Checkbox';
+import { Checkbox, CheckboxGroup } from './UnieAI/Checkbox';
 
 interface FiltersProps {
   formattedCategories: FormattedCategory[];
@@ -63,7 +62,7 @@ function Filters({
                   <Checkbox
                     id={formattedCategory.uid}
                     value={formattedCategory.name}
-                    onChange={event => {
+                    onChange={(event: { target: { checked: any } }) => {
                       const { checked } = event.target;
                       if (checked) {
                         onSelectedCategoryNamesChange([

@@ -15,5 +15,5 @@ module.exports = {
   // Workspaces
   WORKSPACES: '企业空间',
   MANAGER: '管理员',
-  IPPOOL_WORKSPACE_EMPTY_TIP: '未发现企业空间使用此 IP 池',
+  IPPOOL_WORKSPACE_EMPTY_TIP: '未發現企业空间使用此 IP 池',
 };

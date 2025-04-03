@@ -4,6 +4,6 @@
  */
 
 module.exports = {
-  OTHER_APP_EMPTY_DESC: 'Applications you installed with the helm command will be displayed here',
-  OTHER_APP_PL: '其他应用',
+  OTHER_APP_EMPTY_DESC: '使用 helm 命令安裝的應用程式將顯示在這裡',
+  OTHER_APP_PL: '其他應用',
 };

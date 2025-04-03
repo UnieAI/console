@@ -4,26 +4,24 @@
  */
 
 module.exports = {
-  // Banner
-  APP_DETAILS_DESC: '查看待发布的应用的详情。',
-  // Description
-  // App Information
-  INTRODUCTION: '介绍',
-  SERVICE_PROVIDER_WEBSITE: '服务商网站',
-  APP_DESCRIPTION: '应用描述',
-  // Documentation
-  DOCUMENTATION: '说明文档',
-  NO_DOCUMENT_FOUND: '未发现说明文档',
-  // Chart Files
-  // Update Log
-  UPDATE_LOG: '更新日志',
-  NO_UPDATE_LOG_DESC: '未发现更新日志。',
-  // Reject
-  REJECT: '拒绝',
-  REJECT_REASON_DESC: '填写拒绝应用审核的原因。',
-  REJECT_REASON_TIP: '请填写至少一条拒绝原因。',
-  REJECT_SUCCESSFUL: '拒绝成功。',
-  // Release
-  RELEASE: '发布',
-  RELEASE_SUCCESSFUL: '发布成功。',
+  // 簡介
+  APP_DETAILS_DESC: '查看待發佈的應用詳情。',
+  // 應用資訊
+  INTRODUCTION: '簡介',
+  SERVICE_PROVIDER_WEBSITE: '服務供應商網站',
+  APP_DESCRIPTION: '應用描述',
+  // 文件
+  DOCUMENTATION: '說明文件',
+  NO_DOCUMENT_FOUND: '未發現說明文件',
+  // 更新紀錄
+  UPDATE_LOG: '更新紀錄',
+  NO_UPDATE_LOG_DESC: '未發現更新紀錄。',
+  // 拒絕
+  REJECT: '拒絕',
+  REJECT_REASON_DESC: '填寫拒絕應用審核的原因。',
+  REJECT_REASON_TIP: '請至少填寫一條拒絕原因。',
+  REJECT_SUCCESSFUL: '拒絕成功。',
+  // 發布
+  APPROVE: '覈準',
+  RELEASE_SUCCESSFUL: '發佈成功。',
 };

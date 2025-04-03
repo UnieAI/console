@@ -563,7 +563,7 @@ export const COLORS_MAP = {
   lighterRed: '#ea8573',
   lighterYellow: '#ffc781',
   lightestGreen: '#4769ff', //'#c4e6d4',
-  lightestBlue: '#c7deef',
+  lightestBlue: '#3643f5',
   lightestRed: '#fae7e5',
   lightestYellow: '#ffe1be',
   darkGray: '#79879C',

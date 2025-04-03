@@ -4,6 +4,6 @@
  */
 
 module.exports = {
-  CURRENT_USER: '当前用户',
-  ADD_CURRENT_USER: '添加当前用户',
+  CURRENT_USER: '當前用戶',
+  ADD_CURRENT_USER: '添加當前用戶',
 };

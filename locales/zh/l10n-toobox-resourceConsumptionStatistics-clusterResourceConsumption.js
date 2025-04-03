@@ -8,7 +8,7 @@ module.exports = {
   // Navigation Pane > Cluster
   METERING_NOT_ENABLED_DESC:
     '当前模块尚未开启。<a href="{docUrl}/toolbox/metering-and-billing/enable-billing/">了解更多</a>',
-  NO_METER_DATA: '未发现资源消费数据。',
+  NO_METER_DATA: '未發現资源消费数据。',
   // Navigation Pane > Cluster Node
   // Navigation Pane > Cluster Node > Pod
   // Navigation Pane > Checkbox

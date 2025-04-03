@@ -145,11 +145,13 @@ export const Item = styled.li`
   cursor: pointer;
 
   &.cur {
-    color: ${({ theme }) => theme.palette.colors.blue[0]};
+    color: #4e5cf1;
+    // ${({ theme }) => theme.palette.colors.blue[0]};
   }
 
   &:hover {
-    color: ${({ theme }) => theme.palette.colors.blue[0]};
+    color: #4e5cf1;
+    // ${({ theme }) => theme.palette.colors.blue[0]};
   }
 `;
 

@@ -7,7 +7,7 @@ module.exports = {
   // Banner
   COMPOSED_APP_PL: '自制应用',
   // List
-  NO_COMPOSED_APP_FOUND: '未发现自制应用',
+  NO_COMPOSED_APP_FOUND: '未發現自制应用',
   COMPOSED_APP_EMPTY_DESC: '请创建一个自制应用。',
   // List > Edit Information
   // List > Delete

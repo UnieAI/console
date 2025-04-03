@@ -56,7 +56,7 @@ module.exports = {
   UNCORDON: '启用调度',
   OPEN_TERMINAL: '打开终端',
   CUSTOM_COLUMNS: '定制内容',
-  NO_MATCHING_RESULT_FOUND: '未发现匹配的结果',
+  NO_MATCHING_RESULT_FOUND: '未發現匹配的结果',
   STATUS: '状态',
   TOTAL_ITEMS: '总数：{num}',
   YOU_CAN_TRY_TO: '您可以尝试',

@@ -20,7 +20,8 @@ export const StyledAlert = styled(Alert)<{ $marginBottom: number }>`
   }
 
   svg.kubed-icon {
-    color: ${({ theme }) => theme.palette.colors.blue[0]};
+    color: #4e5cf1;
+    // ${({ theme }) => theme.palette.colors.blue[0]};
     fill: ${({ theme }) => theme.palette.colors.blue[4]};
   }
 `;

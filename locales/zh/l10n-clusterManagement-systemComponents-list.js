@@ -20,7 +20,7 @@ module.exports = {
   KS_CONTROLLER_MANAGER_DESC:
     '实现业务逻辑。例如，创建企业空间时创建对应的权限，创建服务策略时生成对应的 Istio 配置。',
   // Kubernetes
-  COREDNS_DESC: '为 Kubernetes 集群提供服务发现的功能',
+  COREDNS_DESC: '为 Kubernetes 集群提供服务發現的功能',
   METRICS_SERVER_DESC: 'Kubernetes 的监控组件，用于从每个节点的 kubelet 采集指标信息。',
   KUBE_SCHEDULER_DESC: 'Kubernetes 的调度器，用于将容器组调度到合适的节点。',
   KUBE_SCHEDULER_SVC_DESC: 'Kubernetes 调度器，用于将容器组调度到合适的节点。',

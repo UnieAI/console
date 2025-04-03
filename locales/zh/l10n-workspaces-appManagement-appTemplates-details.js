@@ -53,7 +53,7 @@ module.exports = {
   UPLOAD_AGAIN_TIP: '出现错误，请重试。',
   // Versions > Submit for Review
   ENTER_VERSION_NUMBER_TIP: '请输入版本号。',
-  SUBMIT_REVIEW_DESC: '将应用模板提交审核以发布到应用商店。',
+  SUBMIT_REVIEW_DESC: '将应用模板提交审核以发布到應用商店。',
   APP_LEARN_MORE:
     '<a href="{docUrl}/application-store/app-developer-guide/helm-developer-guide/" target="_blank">了解更多</a>',
   INVALID_VERSION_TIP: '请输入正确的版本号。',

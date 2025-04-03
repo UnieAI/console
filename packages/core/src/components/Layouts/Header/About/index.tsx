@@ -17,7 +17,7 @@ export default function About() {
     <Root>
       <DescriptionWrapper>
         <div>
-          <Logo src="/assets/logo.svg" alt="" />
+          <Logo src="/assets/logo.png" alt="" />
         </div>
         <Description>{t('KS_DESCRIPTION')}</Description>
         <strong>

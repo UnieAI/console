@@ -5,17 +5,17 @@
 
 module.exports = {
   // Banner
-  NOTIFICATION_HISTORY: '通知历史',
-  NOTIFICATION_HISTORY_PL: '通知历史',
-  NOTIFICATION_HISTORY_DESC: '查看已发送给用户的通知。',
+  NOTIFICATION_HISTORY: '通知歷史',
+  NOTIFICATION_HISTORY_PL: '通知歷史',
+  NOTIFICATION_HISTORY_DESC: '查看已發送給使用者的通知。',
   // List
-  ALERTING_NAME_TCAP: '告警名称',
-  ALERTING_TYPE_TCAP: '告警类型',
-  ALERTING_SEVERITY_TCAP: '告警级别',
-  NOTIFICATION_MESSAGE: '消息',
-  NOTIFICATION_TIME: '通知时间',
-  METRIC_ALERT: '指标告警',
+  ALERTING_NAME_TCAP: '告警名稱',
+  ALERTING_TYPE_TCAP: '告警類型',
+  ALERTING_SEVERITY_TCAP: '告警嚴重程度',
+  NOTIFICATION_MESSAGE: '訊息',
+  NOTIFICATION_TIME: '通知時間',
+  METRIC_ALERT: '指標告警',
   EVENT_ALERT: '事件告警',
-  AUDIT_ALERT: '审计告警',
-  ALERT_RESOLVED: '已解决',
+  AUDIT_ALERT: '稽覈告警',
+  ALERT_RESOLVED: '已解決',
 };

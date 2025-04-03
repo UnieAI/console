@@ -18,11 +18,11 @@ module.exports = {
   SUBSCRIPTION_FAILED: '订阅失败',
   MANAGE: '管理',
   BIND_MARKETPLACE_ACCOUNT: '绑定 UWS 云账户',
-  BIND_MARKETPLACE_ACCOUNT_DESCRIPTION: '请在订阅扩展组件前，前往「扩展中心」绑定您的 UWS 云账户',
+  BIND_MARKETPLACE_ACCOUNT_DESCRIPTION: '请在订阅扩展组件前，前往「擴展中心」绑定您的 UWS 云账户',
   // for en
   GO: '前往',
   // manager
-  EXTENSIONS_CENTER: '扩展中心',
+  EXTENSIONS_CENTER: '擴展中心',
   EXTENSIONS_CENTER_DESCRIPTION: '您可以在此对扩展组件进行安装、卸载、升级、配置变更、启用或禁用。',
   // common
   CLUSTER_AGENT_WITH_SUFFIX: '集群 Agent {suffix}',
@@ -78,7 +78,7 @@ module.exports = {
   COPY: '复制',
   COPIED: '已复制',
   DOWNLOAD: '下载',
-  NO_MATCHING_RESULTS_FOUND: '未发现匹配的结果',
+  NO_MATCHING_RESULTS_FOUND: '未發現匹配的结果',
   YOU_CAN_TRY_ACTION: '您可以尝试 {action}',
   CLEARING_THE_SEARCH_CRITERIA: '清空搜索条件',
 
@@ -91,9 +91,9 @@ module.exports = {
   RESULTS_COUNT: '{count} 个结果',
   CLEAR_ALL_FILTERS: '清除过滤',
   BY_PROVIDER: '来自 {providerName}',
-  NO_EXTENSION_FOUND: '未发现扩展组件',
-  NO_EXTENSION_FOUND_DESC: '当前未发现任何扩展组件，请在扩展中心完成安装部署后使用。',
-  NO_MATCHING_RESULT_FOUND: '未发现匹配的结果',
+  NO_EXTENSION_FOUND: '未發現扩展组件',
+  NO_EXTENSION_FOUND_DESC: '当前未發現任何扩展组件，请在擴展中心完成安装部署后使用。',
+  NO_MATCHING_RESULT_FOUND: '未發現匹配的结果',
   YOU_CAN_TRY_TO: '您可以尝试',
   REFRESH_PAGE: '刷新页面',
   OR: '或者',
@@ -110,8 +110,8 @@ module.exports = {
     '绑定 UWS 云账户，你在扩展市场的订阅都将自动同步到在这里。<br />你可以在任何 UWS Online Console 登录 UWS 云账户访问你订阅的扩展并使用。',
   SUBSCRIPTION_EXTENSION_NOT_FOUND: '未查询到订阅扩展组件',
   SUBSCRIPTION_EXTENSION_NOT_FOUND_DESCRIPTION:
-    '未查询到你的 UWS 云账户订阅扩展组件。去扩展市场发现更多扩展组件。',
-  DISCOVER_EXTENSIONS: '发现扩展组件',
+    '未查询到你的 UWS 云账户订阅扩展组件。去扩展市场發現更多扩展组件。',
+  DISCOVER_EXTENSIONS: '發現扩展组件',
   INSTALLATION_STATUS: '安装状态',
   ENABLED_STATE: '启用状态',
   INSTALLATION_TIME: '安装时间',
@@ -181,7 +181,7 @@ module.exports = {
   KUBESPHERE_VERSION_REQUIREMENTS: 'UWS 版本要求',
   VERSION_MISMATCH: '版本不匹配',
   AVAILABLE_UPDATE_VERSIONS: '可用更新',
-  EXTENSION_DEPENDENCIES_NOT_FOUND: '未发现依赖组件',
+  EXTENSION_DEPENDENCIES_NOT_FOUND: '未發現依赖组件',
   THE_CURRENT_EXTENSION_VERSION_HAS_NO_DEPENDENCIES: '当前扩展组件版本无依赖扩展组件',
   // FOR EN
   REQUIRED_EXTENSIONS: '必装组件',

@@ -4,51 +4,49 @@
  */
 
 module.exports = {
-  // Title
+  // 標題
   BACK: '返回',
-  // Description
-  // Install > Deployment Agreement
+  // 說明
+  // 安裝 > 部署協議
   AGREE: '同意',
-  APP_DEPLOY_AGREEMENT: '安装须知',
-  APP_DEPLOY_AGREEMENT_DESC_1: '您必须遵守该应用的开源协议。',
+  APP_DEPLOY_AGREEMENT: '安裝須知',
+  APP_DEPLOY_AGREEMENT_DESC_1: '您必須遵守該應用的開放原始碼協議。',
   APP_DEPLOY_AGREEMENT_DESC_2:
-    '您将自行承担部署该应用导致的任何后果。如果需要支持服务，请联系相关开发者。',
+    '您將自行承擔部署該應用導致的任何後果。如需技術支援服務，請聯絡相關開發者。',
   DO_NOT_REMIND_AGAIN: '不再提示',
-  // Install > Basic Information
+  // 安裝 > 基本資訊
   LOCATION: '位置',
   CLUSTER_NAME_DESC:
-    '名称只能包含小写字母、数字和连字符（-），必须以小写字母开头并以小写字母或数字结尾，最长 32 个字符。',
-  FEDPROJECT_CANNOT_DEPLOY_APP_TIP: '无法在联邦项目中安装应用。',
-  LATEST_VERSION_SCAP: '最新版本',
-  WORKSPACE_EMPTY_DESC: '请选择企业空间',
-  VERSION_EMPTY_DESC: '请选择版本。',
-  // Install > App Settings
+    '名稱只能包含小寫英文字母、數字和連字符（-），必須以小寫英文字母開頭，並以小寫英文字母或數字結尾，長度最多 32 個字元。',
+  FEDPROJECT_CANNOT_DEPLOY_APP_TIP: '無法在聯邦專案中安裝應用。',
+  WORKSPACE_EMPTY_DESC: '請選擇企業空間',
+  VERSION_EMPTY_DESC: '請選擇版本。',
+  // 安裝 > 應用設定
   HELM_APP_SCHEMA_FORM_TIP:
-    '您可以通过图形化表单或 YAML 文件对应用进行设置。图形化表单和 YAML 文件中的设置相互独立。',
+    '您可透過圖形化表單或 YAML 檔案對應用進行設定。圖形化表單與 YAML 檔案中的設定相互獨立。',
   DEPLOYED_SUCCESSFUL: '部署成功。',
-  // App Information
-  APP_INFORMATION: '应用信息',
-  VERSION_NUMBER: '版本号',
-  APP_SCREENSHOTS: '应用截图',
-  CATEGORY_COLON: '分类：',
-  HOMEPAGE_COLON: '首页：',
-  RELEASE_DATE_COLON: '发布时间：',
-  APP_ID_COLON: '应用 ID：',
-  SOURCE_CODE_ADDRESS_COLON: '源代码地址：',
+  // 應用資訊
+  APP_INFORMATION: '應用資訊',
+  VERSION_NUMBER: '版本號',
+  APP_SCREENSHOTS: '應用截圖',
+  CATEGORY_COLON: '分類：',
+  HOMEPAGE_COLON: '首頁：',
+  RELEASE_DATE_COLON: '發佈時間：',
+  APP_ID_COLON: '應用 ID：',
+  SOURCE_CODE_ADDRESS_COLON: '原始程式碼位址：',
+  MAINTAINER_COLON: '維護者：',
   APP_VERSIONS_TITLE: '上架版本',
-  // APP_VERSIONS_TITLE: '上架版本（只显示 10 个最新的版本）',
-  MAINTAINER_COLON: '维护者：',
-  // App Details > Verions
+  // 分頁標題 > 版本
   VERSIONS: '版本',
-  // APP Details > Keywords
-  KEYWORDS: '关键词',
-  NONE: '无',
-  // App Details > App Introduction
-  APP_INTRODUCTION: '应用介绍',
-  APP_DETAILS: '应用详情',
-  NO_DOCUMENT_DESC: '未发现说明文档。',
-  VERSION_INTRO_EMPTY_DESC: '未发现该版本的介绍。',
-  // App Details > Chart Files
-  CHART_FILES: 'Chart 文件',
-  NO_APP_CHART_FILE_FOUND: '未发现该应用的 chart 文件。',
+  // 分頁標題 > 關鍵字
+  KEYWORDS: '關鍵字',
+  NONE: '無',
+  // 分頁標題 > 應用說明
+  APP_INTRODUCTION: '應用說明',
+  APP_DETAILS: '應用詳情',
+  NO_DOCUMENT_DESC: '未發現說明文件。',
+  VERSION_INTRO_EMPTY_DESC: '未發現該版本的說明。',
+  // 分頁標題 > Chart 檔案
+  CHART_FILES: 'Chart 檔案',
+  NO_APP_CHART_FILE_FOUND: '未發現該應用的 Chart 檔案。',
 };

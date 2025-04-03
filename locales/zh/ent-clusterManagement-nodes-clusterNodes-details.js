@@ -3,4 +3,4 @@
  * https://github.com/kubesphere/console/blob/master/LICENSE
  */
 
-module.exports = { CREATED_AGO: '创建于 {diff}' };
+module.exports = { CREATED_AGO: '建立於 {diff}' };

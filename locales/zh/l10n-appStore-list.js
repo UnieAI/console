@@ -4,26 +4,26 @@
  */
 
 module.exports = {
-  // Head
-  APP_STORE: '应用商店',
+  // 頁首
+  APP_STORE: '應用商店',
   HOME_APP_STORE_DESC:
-    'UWS 官方应用商店提供部署及管理功能，用户可以基于应用模板快速地一键部署应用。',
-  // Discover
-  DISCOVER: '发现',
-  NEW_APPS: '新应用',
-  // App Categories
+    'UWS 官方應用商店提供部署與管理功能，使用者可基於應用模板快速地一鍵部署應用。',
+  // 發現
+  DISCOVER: '發現',
+  NEW_APPS: '新應用',
+  // 應用分類
   APP_CATE_ALL: '全部',
-  APP_CATE_UNCATEGORIZED: '未分类',
-  APP_CATE_MESSAGE_QUEUEING: '消息队列',
-  APP_CATE_IMAGE_REGISTRY: '镜像服务',
-  APP_CATE_PROMETHEUS_EXPORTER: 'Prometheus 导出器',
-  APP_CATE_WEB_SERVER: 'Web 服务器',
-  APP_CATE_NETWORKING: '网络',
-  APP_CATE_DATABASE_CACHE: '数据库和缓存',
-  APP_CATE_STORAGE: '存储',
-  // List
-  MAINTAINER_VALUE: '维护者：{value}',
+  APP_CATE_UNCATEGORIZED: '未分類',
+  APP_CATE_MESSAGE_QUEUEING: '訊息佇列',
+  APP_CATE_IMAGE_REGISTRY: '鏡像服務',
+  APP_CATE_PROMETHEUS_EXPORTER: 'Prometheus Exporter',
+  APP_CATE_WEB_SERVER: 'Web 伺服器',
+  APP_CATE_NETWORKING: '網路',
+  APP_CATE_DATABASE_CACHE: '資料庫與快取',
+  APP_CATE_STORAGE: '儲存',
+  // 列表
+  MAINTAINER_VALUE: '維護者：{value}',
   LATEST_VALUE: '最新：{value}',
-  TOTAL_CATE_COUNT: '应用总数：{total}',
-  SEARCH_BY_NAME: '按名称搜索',
+  TOTAL_CATE_COUNT: '應用總數：{total}',
+  SEARCH_BY_NAME: '按名稱搜尋',
 };

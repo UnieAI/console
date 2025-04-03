@@ -44,7 +44,7 @@ module.exports = {
   PERMISSION_WORKSPACE_APP_TEMPLATES_VIEW_DESC: '查看企业空间中的应用模板。',
   PERMISSION_WORKSPACE_APP_TEMPLATES_MANAGEMENT: '应用模板管理',
   PERMISSION_WORKSPACE_APP_TEMPLATES_MANAGEMENT_DESC:
-    '上传、编辑和删除应用模板以及在平台应用商店上架和下架应用。',
+    '上传、编辑和删除应用模板以及在平台應用商店上架和下架应用。',
   // List > Create > Edit Permissions > Access Control
   PERMISSION_WORKSPACE_GROUPS_VIEW: '部门查看',
   PERMISSION_WORKSPACE_GROUPS_VIEW_DESC: '查看企业空间部门的结构和成员。',

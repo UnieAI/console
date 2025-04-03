@@ -189,7 +189,7 @@ module.exports = {
   SELECT_SECRET_DESC: '将保密字典挂载到容器。',
   CONFIGMAP_NOT_SELECT: '请选择配置字典。',
   SECRET_NOT_SELECT: '请选择保密字典。',
-  NO_AVAILABLE_RESOURCE: '未发现可用资源',
+  NO_AVAILABLE_RESOURCE: '未發現可用资源',
   // List > Create > Advanced Settings
   SELECT_NODES: '选择节点',
   SELECT_NODES_DESC: '将容器组副本分配给特定的节点。您可以使用标签选择节点或手动指定节点。',

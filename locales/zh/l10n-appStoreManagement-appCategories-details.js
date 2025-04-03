@@ -8,5 +8,5 @@ module.exports = {
   // Install > Deployment Agreement
   // Install > Basic Information
   // Install > App Settings
-  APP_SETTINGS: '应用设置',
+  APP_SETTINGS: '應用設置',
 };

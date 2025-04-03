@@ -34,7 +34,7 @@ module.exports = {
   CREATE_CANARY_RELEASE_TASK: '创建金丝雀发布任务',
   // Release Modes > Canary Release > Create > Service Settings
   UNFINISHED_GRAY_TASK: '灰度发布进行中',
-  NO_WORKLOAD_FOUND_TIP: '未发现工作负载',
+  NO_WORKLOAD_FOUND_TIP: '未發現工作负载',
   NO_SERVICE_MESH_TIP: '该应用未启用应用治理，无法使用灰度发布功能。',
   GRAY_APP_NAME: '应用：{name}',
   UNSUPPORTED_WORKLOAD_TYPE: '不支持该工作负载类型',
@@ -78,7 +78,7 @@ module.exports = {
   RELEASE_TASKS: '发布任务',
   TCP_INBOUND_TRAFFIC: 'TCP 入站流量',
   TCP_OUTBOUND_TRAFFIC: 'TCP 出站流量',
-  NO_DATA_SCAP: '未发现数据',
+  NO_DATA_SCAP: '未發現数据',
   REPLICA_COUNT_LOW: '副本数量',
   MIRROR_POLICY_DESC:
     '流量镜像将生产环境的流量复制到灰度版本中，在新版本上线到真实环境之前使用实时用户流量对它进行测试。<br/>因此，流量镜像可以降低直接在生产环境进行变更所带来的风险。',

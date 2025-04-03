@@ -4,9 +4,9 @@
  */
 
 module.exports = {
-  DEFAULT_IMAGE_REGISTRY: '默认图像服务',
-  SET_AS_DEFAULT: '设为默认',
+  DEFAULT_IMAGE_REGISTRY: '預設影像服務',
+  SET_AS_DEFAULT: '設為預設',
   SET_AS_DEFAULT_REGISTRY_DESC:
-    '设置镜像服务为为默认镜像服务。如果没有特别指定，系统将使用默认镜像服务中的镜像创建容器。每个项目只允许存在一个默认镜像服务。',
-  SET_DEFAULT_REGISTRY_SUCCESSFUL: '设置默认镜像服务成功。',
+    '設定影像服務為預設影像服務。若未特別指定，系統將使用預設影像服務中的映像來建立容器。每個專案僅允許設定一個預設影像服務。',
+  SET_DEFAULT_REGISTRY_SUCCESSFUL: '設為預設影像服務成功。',
 };

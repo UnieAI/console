@@ -5,38 +5,39 @@
 
 module.exports = {
   // Banner
-  USER_DESC: '管理用户及其角色。',
-  USER_PL: '用户',
+  USER_DESC: '管理使用者及其角色。',
+  USER_PL: '使用者',
   // List
-  NOT_LOGIN_YET: '尚未登录',
-  USER_EMPTY_DESC: '请创建一个用户。',
-  USER_ACTIVE: '活跃',
-  USER_AUTHLIMITEXCEEDED: '限制登录',
-  USER_PENDING: '等待中',
-  USER_DISABLED: '已禁用',
-  LAST_LOGIN: '最近登录',
+  NOT_LOGIN_YET: '尚未登入',
+  USER_EMPTY_DESC: '請建立一個使用者。',
+  USER_ACTIVE: '已啟用',
+  USER_AUTHLIMITEXCEEDED: '登入限制',
+  USER_PENDING: '待審核',
+  USER_DISABLED: '已停用',
+  LAST_LOGIN: '最近登入',
   // List > Create
   USERNAME_DESC:
-    '用户名只能包含小写字母、数字、连字符（-）和句点（.），必须以小写字母或数字开头及结尾，最长 32 个字符。',
+    '使用者名稱只能包含小寫英文字母、數字、連字符（-）及句點（.），必須以小寫英文字母或數字開頭及結尾，長度最多 32 個字元。',
   PASSWORD_DESC:
-    '密码必须包含至少一个数字、一个小写字母、一个大写字母和一个特殊字符（~!@#$%^&*()-_=+\\|[{}];:\'",<.>/? 或空格），长度为 8 到 64 个字符。',
-  PASSWORD_INVALID_DESC: '密码无效。密码必须包含数字、大写字母和小写字母，长度为 8 至 64 个字符。',
-  PLATFORM_ROLE_DESC: '设置用户在 UWS 平台的角色。',
-  USER_SETTING_EMAIL_DESC: '邮箱地址可用于登录 UWS Web 控制台。',
-  USERNAME_EXISTS: '用户名已存在，请输入其他用户名。',
-  USERNAME_EMPTY_DESC: '请输入一个用户名。',
-  PLATFORM_ROLE: '平台角色',
-  CREATE_USER: '创建用户',
-  EMAIL: '邮箱',
-  EMAIL_EXISTS: '邮箱地址已存在，请输入其他邮箱地址。',
-  USERNAME_INVALID: '用户名无效。{message}',
-  USERNAME: '用户名',
-  PASSWORD: '密码',
+    '密碼必須包含至少一個數字、小寫英文字母、大寫英文字母及一個特殊符號（~!@#$%^&*()-_=+\\|[{}];:\'",<.>/? 或空格），長度為 8 到 64 個字元。',
+  PASSWORD_INVALID_DESC:
+    '密碼無效。密碼必須包含數字、大寫英文字母及小寫英文字母，長度為 8 至 64 個字元。',
+  PLATFORM_ROLE_DESC: '設定使用者在 UWS 平臺的角色。',
+  USER_SETTING_EMAIL_DESC: '電子郵件位址可用於登入 UWS Web 管理主控臺。',
+  USERNAME_EXISTS: '使用者名稱已存在，請輸入其他名稱。',
+  USERNAME_EMPTY_DESC: '請輸入使用者名稱。',
+  PLATFORM_ROLE: '平臺角色',
+  CREATE_USER: '建立使用者',
+  EMAIL: '電子郵件',
+  EMAIL_EXISTS: '電子郵件位址已存在，請輸入其他地址。',
+  USERNAME_INVALID: '使用者名稱無效。{message}',
+  USERNAME: '使用者名稱',
+  PASSWORD: '密碼',
   // List > Edit
-  EDIT_USER: '编辑用户',
+  EDIT_USER: '編輯使用者',
   // List > Delete
-  USER_LOW: '用户',
-  DELETING_CURRENT_USER_NOT_ALLOWED: '无法删除当前用户。',
+  USER_LOW: '使用者',
+  DELETING_CURRENT_USER_NOT_ALLOWED: '無法刪除目前使用者。',
   // ListLayout -> NavTitle
-  USER_AND_ROLE: 'Users and Roles',
+  USER_AND_ROLE: '使用者與角色',
 };

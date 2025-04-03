@@ -4,35 +4,34 @@
  */
 
 module.exports = {
-  // Attributes
-  CREATOR: '创建者',
+  // 屬性
+  CREATOR: '建立者',
   NO: '否',
-  // More > Roll Back
-  // More > Edit Autoscaling
-  // More > Edit Settings > Update Strategy
-  // More > Edit Settings > Containers
-  EDIT_CONTAINER: '编辑容器',
-  // More > Edit Settings > Volumes
-  // More > Edit Settings > Pod Scheduling Rules
-  // More > Edit YAML
-  // More > Re-Create
-  // More > Delete
-  // Resource Status > Clusters
-  MULTI_CLUSTER_RESOURCE_TIP:
-    '当前资源跨多个集群部署。您可以点击一个集群以查看资源在该集群中的设置。',
-  // Resource Status > Replica Status
-  // Resource Status > Ports
-  // Resource Status > Pods
-  NODE: '节点',
-  // Revision Records
-  SERIAL_NUMBER: '序列号',
-  CREATED_TIME: '创建于 {diff}',
-  // Metadata
-  // Monitoring
-  // Environment Variables
-  // Events
+  // 更多 > 回滾
+  // 更多 > 編輯自動擴增
+  // 更多 > 編輯設定 > 更新策略
+  // 更多 > 編輯設定 > 容器
+  EDIT_CONTAINER: '編輯容器',
+  // 更多 > 編輯設定 > 儲存體
+  // 更多 > 編輯設定 > Pod 調度規則
+  // 更多 > 編輯 YAML
+  // 更多 > 重新建立
+  // 更多 > 刪除
+  // 資源狀態 > 叢集
+  MULTI_CLUSTER_RESOURCE_TIP: '此資源跨多個叢集部署。您可點擊一個叢集以查看資源在該叢集中的設定。',
+  // 資源狀態 > 副本狀態
+  // 資源狀態 > 埠口
+  // 資源狀態 > Pod
+  NODE: '節點',
+  // 版本紀錄
+  SERIAL_NUMBER: '序列號',
+  CREATED_TIME: '建立於 {diff}',
+  // 元資料
+  // 監控
+  // 環境變數
+  // 事件
   EVENT_PL: '事件',
   EVENT_NORMAL: '正常',
-  EVENT_WARNING: '一般告警',
-  EVENT_CRITICAL: '危险',
+  EVENT_WARNING: '一般警示',
+  EVENT_CRITICAL: '嚴重',
 };

@@ -33,7 +33,8 @@ export const LoadMore = styled.span`
   cursor: pointer;
 
   &:hover {
-    color: ${({ theme }) => theme.palette.colors.blue[0]};
+    color: #4e5cf1;
+    // ${({ theme }) => theme.palette.colors.blue[0]};
   }
 
   &:before,
@@ -106,7 +107,8 @@ export const AppCardWrapper = styled.div`
 
     .field-value,
     .title strong {
-      color: ${({ theme }) => theme.palette.colors.blue[0]};
+      color: #4e5cf1;
+      // ${({ theme }) => theme.palette.colors.blue[0]};
     }
   }
 `;

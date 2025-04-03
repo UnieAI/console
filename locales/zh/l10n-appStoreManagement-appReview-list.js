@@ -4,17 +4,17 @@
  */
 
 module.exports = {
-  // Banner
-  APP_REVIEW: '应用审核',
-  APP_REVIEW_DESC: '审核待发布到应用商店的应用。',
-  // New
+  // 簡介
+  APP_REVIEW: '應用審核',
+  APP_REVIEW_DESC: '審核待發佈到應用商店的應用。',
+  // 新提交
   NEW_SUBMIT: '新提交',
-  APP_REVIEW_EMPTY_DESC: '请在企业空间中创建应用模板并提交审核。',
-  APP_STATUS_TO_BE_REVIEWED: '待审核',
-  APP_STATUS_PASSED: '已批准',
+  APP_REVIEW_EMPTY_DESC: '請在企業空間中建立應用模板並提交審核。',
+  APP_STATUS_TO_BE_REVIEWED: '待審核',
+  APP_STATUS_PASSED: '已通過',
   APP_STATUS_SUSPENDED: '已下架',
-  APP_STATUS_REJECTED: '已拒绝',
-  APP_STATUS_IN_REVIEW: '审核中',
+  APP_STATUS_REJECTED: '已拒絕',
+  APP_STATUS_IN_REVIEW: '審核中',
   OPERATOR: '操作者',
-  APP_REVIEW_UNPROCESSED_EMPTY_DESC: '没有需要审核的应用',
+  APP_REVIEW_UNPROCESSED_EMPTY_DESC: '目前沒有需要審核的應用',
 };

@@ -6,15 +6,15 @@
 module.exports = {
   // Banner
   // Cluster Information
-  NODES: '节点',
-  DISK: '磁盘',
-  CLUSTER_INFORMATION: '集群信息',
+  NODES: '節點',
+  DISK: '磁碟',
+  CLUSTER_INFORMATION: '叢集資訊',
   // Cluster Information > Edit Information
-  CLUSTER_NAME: '集群名称',
-  EDIT_CLUSTER_INFO_DESC: '编辑集群基本信息。',
+  CLUSTER_NAME: '叢集名稱',
+  EDIT_CLUSTER_INFO_DESC: '編輯叢集基本資訊。',
   // Remove Cluster
-  REMOVE_CLUSTER: '移除集群',
+  REMOVE_CLUSTER: '移除叢集',
   REMOVE_CLUSTER_DESC:
-    '集群被移除后，UWS 将无法管理集群，集群中的资源将不会被删除。请输入集群名称 <strong>{name}</strong> 以确认您了解此操作的风险。',
+    '叢集被移除後，UWS 將無法管理此叢集，叢集中的資源將不會被刪除。請輸入叢集名稱 <strong>{name}</strong> 以確認您瞭解此操作的風險。',
   REMOVE_SUCCESS: '移除成功。',
 };

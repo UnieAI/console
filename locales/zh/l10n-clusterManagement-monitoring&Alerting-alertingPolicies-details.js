@@ -15,5 +15,5 @@ module.exports = {
   NOTIFICATION_SUMMARY_COLON: '概要：',
   DETAILS_COLON: '详情：',
   // Alerting History
-  NO_DATA_DESC: '未发现数据',
+  NO_DATA_DESC: '未發現数据',
 };

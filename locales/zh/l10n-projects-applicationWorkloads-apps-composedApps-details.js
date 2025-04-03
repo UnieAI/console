@@ -70,7 +70,7 @@ module.exports = {
   CREATE_GRAYSCALE_RELEASE_TASK: '创建灰度发布任务',
   GRAYSCALE_RELEASE_DESC:
     '灰度发布是在生产环境进行应用迭代的一种重要方式。您可以选择不同的发布方法，在应用升级至新版本的过程中实现平滑过渡。',
-  NO_GRAYSCALE_RELEASE_TASK_FOUND: '未发现灰度发布任务',
+  NO_GRAYSCALE_RELEASE_TASK_FOUND: '未發現灰度发布任务',
   NO_GRAYSCALE_RELEASE_TASK_FOUND_DESC: '请创建一个灰度发布任务。',
   TYPE_SERVICE_DEPLOYMENT: '类型：无状态服务（部署）',
   TYPE_SERVICE_STATEFULSET: '类型：有状态服务（有状态副本集）',

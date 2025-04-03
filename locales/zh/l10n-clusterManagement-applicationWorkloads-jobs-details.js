@@ -9,7 +9,7 @@ module.exports = {
   // More > View YAML
   // More > Delete
   // Run Records
-  END_TIME: '结束时间',
-  SN_NO: '序号',
-  START_TIME: '开始时间',
+  END_TIME: '結束時間',
+  SN_NO: '序號',
+  START_TIME: '開始時間',
 };

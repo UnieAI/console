@@ -7,8 +7,8 @@ module.exports = {
   // Attributes
   // More > Edit YAML
   // More > Edit Routing Rules
-  SERVICE_VALUE: '服务：{value}',
+  SERVICE_VALUE: '服務：{value}',
   // More > Edit Annotations
   // Resource Status
-  PROTOCOL_VALUE: '协议：{value}',
+  PROTOCOL_VALUE: '協議：{value}',
 };

@@ -9,7 +9,7 @@ module.exports = {
   SYSTEM_PROJECTS: '系统项目',
   USER_PROJECTS: '用户项目',
   // List
-  EMPTY_WRAPPER: '未发现{resource}',
+  EMPTY_WRAPPER: '未發現{resource}',
   TERMINATING: '删除中',
   ACTIVE: '活跃',
   // List > Assign Workspace

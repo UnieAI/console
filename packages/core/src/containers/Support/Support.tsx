@@ -13,7 +13,7 @@ export function Support() {
     <Root>
       <Wrapper>
         <Community />
-        <UWSEnterprise />
+        {/* <UWSEnterprise /> */}
         <Footer />
       </Wrapper>
     </Root>

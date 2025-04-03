@@ -107,7 +107,8 @@ export const CoreItemIcon = styled.div`
 
   &.healthy,
   &.ready {
-    background-color: ${({ theme }) => theme.palette.colors.blue[0]};
+    background-color: #4e5cf1;
+    // ${({ theme }) => theme.palette.colors.blue[0]};
   }
 
   &.unhealthy,

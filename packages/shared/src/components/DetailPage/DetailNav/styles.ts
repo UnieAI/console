@@ -35,8 +35,10 @@ export const NavItem = styled(NavLink)`
   &.active {
     border-radius: 4px;
     box-shadow: 0 8px 16px 0 rgba(85, 188, 138, 0.36);
-    background-color: ${({ theme }) => theme.palette.colors.blue[0]};
-    border-color: ${({ theme }) => theme.palette.colors.blue[0]};
+    background-color: #4e5cf1;
+    // ${({ theme }) => theme.palette.colors.blue[0]};
+    border-color: #4e5cf1;
+    // ${({ theme }) => theme.palette.colors.blue[0]};
 
     &:hover {
       color: #fff;

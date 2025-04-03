@@ -395,6 +395,10 @@ const CssBaseline = createGlobalStyle`
       opacity: 0
     }
   }
+
+  input:focus {
+  border-color: rgb(83, 39, 241) !important;
+}
 `;
 
 // const MemoCssBaseline = React.memo(CssBaseline);

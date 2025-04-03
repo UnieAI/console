@@ -15,5 +15,5 @@ module.exports = {
   UPDATED_TIME: '更新于 {value}',
   // App Template > App Description
   APP_TEMPLATE: '应用模板',
-  NO_APP_DESC_FOUND: '未发现应用描述信息。',
+  NO_APP_DESC_FOUND: '未發現应用描述信息。',
 };

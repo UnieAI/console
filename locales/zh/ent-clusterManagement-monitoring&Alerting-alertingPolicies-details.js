@@ -4,6 +4,6 @@
  */
 
 module.exports = {
-  REFERENCE: '参考文档',
-  NO_MONITOR_METRIC: '告警规则未激活，没有监控数据。',
+  REFERENCE: '參考文件',
+  NO_MONITOR_METRIC: '警示規則未啟用，沒有監控數據。',
 };

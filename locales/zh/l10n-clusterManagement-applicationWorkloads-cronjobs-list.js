@@ -6,12 +6,12 @@
 module.exports = {
   // Banner
   // List
-  CRONJOB_EMPTY_DESC: '请创建一个定时任务。',
+  CRONJOB_EMPTY_DESC: '請創建一個定時任務。',
   // List > Create > Basic Information
   EVERY_DAY: '0 0 * * * （每天）',
-  EVERY_HOUR: '0 * * * * （每小时）',
+  EVERY_HOUR: '0 * * * * （每小時）',
   EVERY_MONTH: '0 0 1 * * （每月）',
-  EVERY_WEEK: '0 0 * * 0 （每周）',
+  EVERY_WEEK: '0 0 * * 0 （每週）',
   // List > Create > Strategy Settings
   // List > Create > Pod Settings
   // List > Create > Storage Settings
@@ -19,6 +19,6 @@ module.exports = {
   // List > Edit Information
   // List > Edit YAML
   // List > Start/Pause
-  PAUSE: '暂停',
-  START: '启动',
+  PAUSE: '暫停',
+  START: '啟動',
 };

@@ -10,7 +10,7 @@ module.exports = {
   // Attributes
   // Resource Status
   APPLICATION_GOVERNANCE_SCAP: '应用治理',
-  NO_SERVICE_FOUND: '未发现服务',
+  NO_SERVICE_FOUND: '未發現服务',
   // External Access
   GATEWAY_IP_ADDRESS: '网关 IP 地址',
   GATEWAY_ACCESS_MODE: '网关访问模式',

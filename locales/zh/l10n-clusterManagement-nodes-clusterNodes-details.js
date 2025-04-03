@@ -60,7 +60,7 @@ module.exports = {
   NODE_READY_DESC: '节点是否可以接收容器组。',
   LAST_HEARTBEAT_VALUE: '最后心跳：{value}',
   // Running Status > Taints
-  NO_TAINTS_TIPS: '未发现污点。',
+  NO_TAINTS_TIPS: '未發現污点。',
   POLICY: '策略',
   // Pods
   READY_VALUE: '就绪：{readyCount}/{total}',

@@ -13,5 +13,5 @@ module.exports = {
   END_TIME_SCAP: '结束时间',
   SYNC_RESULT_PL: '同步结果',
   SYNC_RESULT: '同步结果',
-  SYNC_RESULT_EMPTY_DESC: '未发现同步结果.',
+  SYNC_RESULT_EMPTY_DESC: '未發現同步结果.',
 };

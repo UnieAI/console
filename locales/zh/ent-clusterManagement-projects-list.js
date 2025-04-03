@@ -5,5 +5,5 @@
 
 module.exports = {
   ANNOTATION_FORMAT_DESC:
-    'The annotation key can contain only letters, numbers, hyphens (-), underscores (_), slashes (/), and dots (.), and must start and end with a letter or number. The maximum length is 63 characters (if the key contains a domain name, the maximum length is 253 characters).',
+    '註記鍵只能包含字母、數字、連字號 (-)、底線 (_)、斜線 (/) 和點 (.)，且必須以字母或數字開頭和結尾。最大長度為63個字元（如果密鑰包含域名，則最大長度為253個字元）。',
 };

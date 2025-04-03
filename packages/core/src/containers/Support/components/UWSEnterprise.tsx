@@ -49,7 +49,7 @@ export function UWSEnterprise() {
   return (
     <Root>
       <Header>
-        <img src="/assets/about-kse-logo.svg" alt="logo" />
+        <img src="/assets/about-kse-logo.png" alt="logo" />
         {isOnline && (
           <Link href={getConfigSupportLink('kse')} target="_blank" rel="noopener noreferrer">
             {t('LEARN_MORE')}

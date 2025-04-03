@@ -4,7 +4,7 @@
  */
 
 module.exports = {
-  // Resource Usage
-  GPU_USAGE_TIME: 'GPU Usage ({time})',
-  GPU_MEMORY_USAGE_TIME: 'Graphics Memory Usage ({time})',
+  // 資源使用
+  GPU_USAGE_TIME: 'GPU 使用率（{time}）',
+  GPU_MEMORY_USAGE_TIME: '圖形記憶體使用率（{time}）',
 };

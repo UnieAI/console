@@ -33,7 +33,7 @@ module.exports = {
   PIPELINE_PREPARE_DESC: '环境准备中...',
   INITIALIZING_PIPELINE_DESC: '请等待流水线初始化完成。',
   TASK_FAILED_NOT_OPERATIONAL: '此阶段已失败且无法操作。',
-  NO_PIPELINE_CONFIG_FILE_TIP: '未发现流水线配置文件。',
+  NO_PIPELINE_CONFIG_FILE_TIP: '未發現流水线配置文件。',
   // Task Status > Edit Pipeline
   EDIT_PIPELINE: '编辑流水线',
   JENKINS_UNAVAILABLE: 'Jenkins 未就绪。',
@@ -119,10 +119,10 @@ module.exports = {
   // Run Records > Run Record Details > Commits
   COMMIT_PL: '提交',
   AUTHOR: '作者',
-  NO_COMMIT_FOUND: '未发现提交记录',
+  NO_COMMIT_FOUND: '未發現提交记录',
   // Run Records > Run Record Details > Artifacts
   ARTIFACT_PL: '制品',
-  NO_ARTIFACT_FOUND_TIP: '未发现制品。',
+  NO_ARTIFACT_FOUND_TIP: '未發現制品。',
   SIZE: '大小',
   // Run Records > Run > Set Parameters
   // Branches

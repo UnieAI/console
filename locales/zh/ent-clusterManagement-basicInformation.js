@@ -4,6 +4,6 @@
  */
 
 module.exports = {
-  GPU_MEMORY: '显存',
-  EDIT_TAGS: '编辑标签',
+  GPU_MEMORY: '顯存',
+  EDIT_TAGS: '編輯標籤',
 };
