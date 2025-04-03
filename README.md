@@ -45,6 +45,7 @@ This is optional too, we use `make` to reduce hand work, but it's totally ok wit
 Clone the repository, and run `yarn && yarn build`
 
 ```sh
+nvm use 16
 git clone https://github.com/kubesphere/console.git
 cd console/
 yarn && yarn build
