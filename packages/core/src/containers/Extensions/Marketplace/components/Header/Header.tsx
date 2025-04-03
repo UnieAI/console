@@ -19,6 +19,7 @@ function Header() {
     <Wrapper>
       <TitleRowBrand>
         <Title>{t('BRAND')}</Title>
+        {/* <Title>UnieAI Web Service</Title> */}
         <TitleImageBrand />
       </TitleRowBrand>
       <TitleRowMarketplace>

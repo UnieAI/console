@@ -140,10 +140,10 @@ export const Checkbox = forwardRef<CheckboxProps, 'input'>(
     ref,
   ) => {
     const uuid = useId(id);
-    const [_checked, setChecked] = useUncontrolled({
+    const [checkedValue, setChecked] = useUncontrolled({
       value: checked,
       defaultValue: defaultChecked,
-      finalValue: [],
+      finalValue: false,
       rule: val => !isUndefined(val),
       onChange: () => {},
     });
@@ -157,29 +157,37 @@ export const Checkbox = forwardRef<CheckboxProps, 'input'>(
 
     if (inGroup) {
       const deps = Array.isArray(values) ? values.join(',') : values;
+      // useEffect(() => {
+      //   const isChecked = Array.isArray(values) && values.includes(restProps.value);
+      //   setChecked(isChecked);
+      // }, [deps]);
+      // eslint-disable-next-line react-hooks/rules-of-hooks
       useEffect(() => {
-        const isChecked = Array.isArray(values) && values.includes(restProps.value);
+        const value = restProps.value ?? '';
+        const isChecked = Array.isArray(values) && values.includes(value);
         setChecked(isChecked);
       }, [deps]);
     }
 
-    const onCheckboxChange = e => {
+    const onCheckboxChange = (e: React.ChangeEvent<HTMLInputElement>) => {
       if (isDisabled) return;
 
       if (inGroup && updateState) {
-        updateState(restProps.value, e.target.checked);
+        updateState(restProps.value ?? '', e.target.checked);
+        // eslint-disable-next-line @typescript-eslint/no-unused-expressions
         onChange && onChange(e);
       } else {
         setChecked(e.target.checked);
+        // eslint-disable-next-line @typescript-eslint/no-unused-expressions
         onChange && onChange(e);
       }
     };
 
     return (
-      <CheckboxWrap disabled={isDisabled}>
+      <CheckboxWrap disabled={!!isDisabled}>
         <CheckboxControl
           className="kubed-checkbox-control"
-          checked={_checked}
+          checked={!!checkedValue}
           indeterminate={indeterminate}
           disabled={isDisabled}
         >
@@ -187,7 +195,7 @@ export const Checkbox = forwardRef<CheckboxProps, 'input'>(
             id={uuid}
             ref={ref}
             type="checkbox"
-            checked={indeterminate || _checked}
+            checked={!!indeterminate || !!checkedValue}
             onChange={onCheckboxChange}
             disabled={isDisabled}
             {...restProps}

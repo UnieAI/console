@@ -5,8 +5,7 @@
 
 import React from 'react';
 import { without } from 'lodash';
-import { Checkbox, CheckboxGroup } from '@kubed/components';
-// import { Checkbox } from './UnieAI/Checkbox'
+// import { Checkbox, CheckboxGroup } from '@kubed/components';
 import type { FormattedCategory } from '../../../../../stores/extension';
 import {
   Wrapper,
@@ -20,6 +19,8 @@ import {
   FilterItemNameInner,
   FilterItemCount,
 } from './Filters.styles';
+import { CheckboxGroup } from '../../UnieAI/CheckboxGroup';
+import { Checkbox } from '../../UnieAI/Checkbox';
 
 interface FiltersProps {
   formattedCategories: FormattedCategory[];

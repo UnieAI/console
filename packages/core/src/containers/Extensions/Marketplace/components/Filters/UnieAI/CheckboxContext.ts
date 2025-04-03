@@ -1,7 +1,7 @@
 import React from 'react';
 
 export interface CheckboxConfig {
-  updateState?: (value: string | number, checked: boolean) => void;
+  updateState?: (value: string, checked: boolean) => void;
   disabledAll: boolean;
   values: string[];
   inGroup: boolean;

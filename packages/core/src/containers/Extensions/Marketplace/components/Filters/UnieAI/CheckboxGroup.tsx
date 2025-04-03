@@ -29,7 +29,7 @@ export const CheckboxGroup: React.FC<React.PropsWithChildren<CheckboxGroupProps>
     defaultValue,
     finalValue: [],
     rule: val => !isUndefined(val),
-    onChange,
+    onChange: onChange ?? (() => {}),
   });
 
   const updateState = (val: string, checked: boolean) => {
@@ -43,9 +43,9 @@ export const CheckboxGroup: React.FC<React.PropsWithChildren<CheckboxGroupProps>
   const providerValue = useMemo(() => {
     return {
       updateState,
-      disabledAll: disabled,
+      disabledAll: disabled ?? false,
       inGroup: true,
-      values: _value,
+      values: _value ?? [],
     };
   }, [disabled, providerValueDeps]);
 
