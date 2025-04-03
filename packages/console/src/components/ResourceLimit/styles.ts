@@ -49,7 +49,7 @@ export const AlertWrapper = styled.div`
   align-items: center;
   padding: 12px;
   border-radius: 4px;
-  background-color: #c7deef;
+  background-color: rgb(48, 159, 244);
 `;
 
 export const AlertContent = styled.div`

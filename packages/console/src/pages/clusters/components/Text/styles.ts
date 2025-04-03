@@ -32,7 +32,7 @@ const StyledText = styled.div<IProps>`
     props.clickable &&
     `&:hover {
       & > div {
-        color: ${props.theme.palette.colors.green[2]} !important;
+        color: ${props.theme.palette.colors.blue[0]} !important;
       }
     }`}
 

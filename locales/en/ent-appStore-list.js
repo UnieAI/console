@@ -68,16 +68,15 @@ module.exports = {
   VERSION_ACTIVATE_SUCCESSFUL: 'Successfully published .',
   SYSTEM_REPO_TYPE: 'System Warehouse',
   OWNER_REPO_TYPE: 'Private Warehouse',
-  USE_GUIDE_TITLE: 'KubeSphere App Store Usage Guide',
+  USE_GUIDE_TITLE: 'UWS App Store Usage Guide',
   USE_GUIDE_DESC:
-    'KubeSphere App Store provides an internal global application distribution platform for enterprises, where all applications must pass the approval of "KubeSphere App Store Management" and be listed. KubeSphere is not responsible for the after-sales maintenance of applications in the App Store.',
+    'The UWS App Store provides an enterprise-wide application distribution platform, where all applications must be reviewed and approved by the "UWS App Store Management" before being listed. UWS and UnieAI do not assume after-sales maintenance and support responsibilities for the applications in the App Store.',
   USE_GUIDE_DESC2:
-    'If you need to create an application through KubeSphere App Store Management, please refer to the following steps:',
-  USE_GUIDE_STEP_1: 'Install the "KubeSphere App Store Management" extension component',
+    'If you need to create an application through UWS App Store Management, please refer to the following steps:',
+  USE_GUIDE_STEP_1: 'Install the "UWS App Store Management" extension component',
   USE_GUIDE_STEP_2:
     'Create an application template in a self-built enterprise space and submit for approval',
   USE_GUIDE_STEP_3:
-    '"Platform administrator" completes the application template approval through "KubeSphere App Store Management" and lists it in the App Store',
-  USE_GUIDE_STEP_4:
-    'Then, users in each project can create applications through KubeSphere App Store',
+    '"Platform administrator" completes the application template approval through "UWS App Store Management" and lists it in the App Store',
+  USE_GUIDE_STEP_4: 'Then, users in each project can create applications through UWS App Store',
 };

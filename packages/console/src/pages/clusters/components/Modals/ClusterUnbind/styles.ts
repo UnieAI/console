@@ -125,7 +125,7 @@ export const SliderBox = styled.div`
   top: 0px;
   left: 0px;
   height: 100%;
-  background: ${({ theme }) => theme.palette.colors.green[2]};
+  background: ${({ theme }) => theme.palette.colors.blue[0]};
   opacity: 0;
   display: flex;
   align-items: center;

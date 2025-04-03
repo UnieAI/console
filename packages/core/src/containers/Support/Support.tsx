@@ -5,7 +5,7 @@
 
 import React from 'react';
 
-import { Community, KubeSphereEnterprise, Footer } from './components';
+import { Community, UWSEnterprise, Footer } from './components';
 import { Root, Wrapper } from './Support.styles';
 
 export function Support() {
@@ -13,7 +13,7 @@ export function Support() {
     <Root>
       <Wrapper>
         <Community />
-        <KubeSphereEnterprise />
+        <UWSEnterprise />
         <Footer />
       </Wrapper>
     </Root>

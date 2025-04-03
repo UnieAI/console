@@ -9,9 +9,9 @@ module.exports = {
   APPS_MANAGEMENT: 'App Management',
   UPLOAD_TEMPLATE: 'Upload Template',
   APP_TEMPLATE_DESC:
-    'KubeSphere provides full lifecycle management for apps. You can upload or create new app templates and test them quickly. In addition, you can publish your apps to the App Store so that other users can deploy with one click.',
+    'UWS provides full lifecycle management for apps. You can upload or create new app templates and test them quickly. In addition, you can publish your apps to the App Store so that other users can deploy with one click.',
   DEVELOP_APP_DESC:
-    'You can upload Helm charts or use the resource orchestration tool provided by KubeSphere to develop app templates.',
+    'You can upload Helm charts or use the resource orchestration tool provided by UWS to develop app templates.',
   DEVELOP_APP_TITLE: 'How do I develop app templates?',
   HOW_PUBLISH_APP_TITLE: 'How do I release apps to the App Store?',
   HOW_PUBLISH_APP_DESC:

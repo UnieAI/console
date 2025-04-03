@@ -42,6 +42,7 @@ function Banner({ onBack }: Props): JSX.Element {
           <Shape1 />
           <Shape2 />
           <Shape3 />
+          asa
           {isAppsPage ? (
             <>
               <LeftShape1 className="leftShape_1" />

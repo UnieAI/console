@@ -17,7 +17,7 @@ module.exports = {
   // Cluster List > Remove Cluster
   DELETE_CLUSTER_SWIPE_DESC: 'I understand the risks of this operation.',
   REMOVE_CLUSTER_TIP_C:
-    'Please clear the configuration information in the cluster by refering to the KubeSphere official documentation to avoid resource conflicts when the cluster joins another multi-cluster system.',
+    'Please clear the configuration information in the cluster by refering to the UWS official documentation to avoid resource conflicts when the cluster joins another multi-cluster system.',
   // Cluster Tags
   CLUSTER_TAGS: 'Cluster Tags',
   NO_CLUSTER_TAGS: 'No Cluster Tag Found',

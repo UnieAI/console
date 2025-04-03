@@ -6,7 +6,7 @@
 import React from 'react';
 import { without } from 'lodash';
 import { Checkbox, CheckboxGroup } from '@kubed/components';
-
+// import { Checkbox } from './UnieAI/Checkbox'
 import type { FormattedCategory } from '../../../../../stores/extension';
 import {
   Wrapper,

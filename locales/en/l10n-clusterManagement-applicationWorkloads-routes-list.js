@@ -12,7 +12,7 @@ module.exports = {
     'To use ingresses, you need to contact the project administrator to set the gateway for the project.',
   ACCESS_TYPES_OF_ROUTE_Q: 'What are the external access modes of ingresses?',
   ACCESS_TYPES_OF_ROUTE_A:
-    'KubeSphere ingresses support the NodePort and LoadBalancer external access modes.',
+    'UWS ingresses support the NodePort and LoadBalancer external access modes.',
   ROUTE_PL: 'Ingresses',
   ROUTE_SETTING_PL: 'Application routing tools',
   // List

@@ -44,7 +44,7 @@ export const StatusAvatar = styled.span`
   }
 
   .success {
-    fill: ${({ theme }) => theme.palette.colors.green[2]};
+    fill: ${({ theme }) => theme.palette.colors.blue[0]};
   }
 
   .error {

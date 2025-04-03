@@ -13,7 +13,7 @@ export const ExtensionButtonStyle = styled.div`
     padding: 0 12px;
     border: none;
     border-radius: 32px;
-    background-color: inherit;
+    background-color: rgb(83,39,241)
     cursor: pointer;
 
     &:hover {

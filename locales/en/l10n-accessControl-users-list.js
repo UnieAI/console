@@ -22,8 +22,8 @@ module.exports = {
     'The password must contain at least one number, one lowercase letter, one uppercase letter, and one special character (~!@#$%^&*()-_=+\\|[{}];:\'",<.>/? or space). The length must be 8 to 64 characters.',
   PASSWORD_INVALID_DESC:
     'Invalid password. The password must contain at least one number, one lowercase letter, and one uppercase letter. The length must be 8 to 64 characters.',
-  PLATFORM_ROLE_DESC: 'Set the role of the user on the KubeSphere platform.',
-  USER_SETTING_EMAIL_DESC: 'The email address can be used to log in to the KubeSphere web console.',
+  PLATFORM_ROLE_DESC: 'Set the role of the user on the UWS platform.',
+  USER_SETTING_EMAIL_DESC: 'The email address can be used to log in to the UWS web console.',
   USERNAME_EXISTS: 'The username already exists. Please enter another username.',
   USERNAME_EMPTY_DESC: 'Please enter a username.',
   PLATFORM_ROLE: 'Platform Role',

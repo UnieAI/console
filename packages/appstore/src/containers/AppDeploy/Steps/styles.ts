@@ -54,7 +54,7 @@ export const Indicator = styled.span`
 
   &.current,
   &.fullfill {
-    background-color: ${({ theme }) => theme.palette.colors.green[2]};
+    background-color: ${({ theme }) => theme.palette.colors.blue[0]};
   }
 
   &.current {

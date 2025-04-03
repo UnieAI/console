@@ -1,10 +1,10 @@
 /*
  * Please refer to the LICENSE file in the root directory of the project.
- * https://github.com/kubesphere/console/blob/master/LICENSE
+ * https://github.com/UWS/console/blob/master/LICENSE
  */
 
 module.exports = {
-  BRAND: 'KubeSphere',
+  BRAND: 'Extension',
   EXTENSION: 'Extension',
   EXTENSION_DESC: 'Quickly access your extensions for platforms, clusters, and workspaces.',
   EXTENSION_WITH_SUFFIX: 'Extension {suffix}',
@@ -13,13 +13,13 @@ module.exports = {
 
   // marketplace
   MARKETPLACE_EN: 'Marketplace',
-  KUBESPHERE_MARKETPLACE: 'KubeSphere Marketplace',
+  UWS_MARKETPLACE: 'UWS Extension Marketplace',
   SUBSCRIBE: 'Subscribe',
   SUBSCRIPTION_FAILED: 'Subscription failed',
   MANAGE: 'Manage',
   BIND_MARKETPLACE_ACCOUNT: 'Bind Marketplace account',
   BIND_MARKETPLACE_ACCOUNT_DESCRIPTION:
-    'Please go to the "Extension Center" to bind your KubeSphere cloud account before subscribing to the extensions',
+    'Please go to the "Extension Center" to bind your UWS cloud account before subscribing to the extensions',
   GO: 'Go',
 
   // manager
@@ -109,12 +109,12 @@ module.exports = {
   DISTRIBUTED_OBSERVABILITY_CENTER_DESC:
     'Unified monitoring dashboard that provides metrics of all clusters managed by the platform.',
   // table ui
-  UNBOUND_MARKETPLACE_ACCOUNT: 'Unbound KubeSphere cloud account',
+  UNBOUND_MARKETPLACE_ACCOUNT: 'Unbound UWS cloud account',
   UNBOUND_MARKETPLACE_ACCOUNT_DESCRIPTION:
-    'Bind the KubeSphere cloud account, and your subscriptions in the extension marketplace will be automatically synchronized here.<br />You can login to your KubeSphere cloud account in any KubeSphere Online Console to access your subscribed extensions and use them.',
+    'Bind the UWS cloud account, and your subscriptions in the extension marketplace will be automatically synchronized here.<br />You can login to your UWS cloud account in any UWS Online Console to access your subscribed extensions and use them.',
   SUBSCRIPTION_EXTENSION_NOT_FOUND: 'Subscription extensions not found',
   SUBSCRIPTION_EXTENSION_NOT_FOUND_DESCRIPTION:
-    'Your KubeSphere cloud account subscription extension was not found. Please go to the extension market to find more extensions.',
+    'Your UWS cloud account subscription extension was not found. Please go to the extension market to find more extensions.',
   DISCOVER_EXTENSIONS: 'Discover Extensions',
   INSTALLATION_STATUS: 'Installation Status',
   ENABLED_STATE: 'Enabled State',
@@ -127,7 +127,7 @@ module.exports = {
   UNBIND_MARKETPLACE_ACCOUNT: 'Unbind Cloud Account',
   UNBIND_MARKETPLACE_ACCOUNT_DESCRIPTION:
     'After the cloud account is unbound, the extension components of the subscription cannot be obtained. Are you sure you want to unbind the cloud account?',
-  MARKETPLACE_ACCOUNT_BINDING_FAILED: 'KubeSphere cloud account binding failed',
+  MARKETPLACE_ACCOUNT_BINDING_FAILED: 'UWS cloud account binding failed',
   MARKETPLACE_ACCOUNT_BINDING_FAILED_DESCRIPTION:
     'An error occurred during the binding process, please try to authorize the binding again.',
   UNBIND: 'Unbind',
@@ -146,7 +146,7 @@ module.exports = {
   RELEASE_DATE: 'Release Date',
   EXTENSION_ID: 'Extension ID',
   KUBERNETES_VERSION: 'Kubernetes Version',
-  KUBE_SPHERE_VERSION: 'KubeSphere Version',
+  KUBE_SPHERE_VERSION: 'UWS Version',
   EXTENSION_REPOSITORIES: 'Extension Repositories',
   EXTENSION_DOCUMENTS: 'Extension Documents',
   OVERVIEW: 'Overview',
@@ -182,7 +182,7 @@ module.exports = {
     'The update process will cause the extensions to be unavailable, which may affect the business. Please perform it during low business hours.',
   EXTENSION_VERSION: 'Extension Version',
   KUBERNETES_VERSION_REQUIREMENTS: 'Kubernetes Version Requirements',
-  KUBESPHERE_VERSION_REQUIREMENTS: 'Kubesphere Version Requirements',
+  UWS_VERSION_REQUIREMENTS: 'UWS Version Requirements',
   VERSION_MISMATCH: 'Version Mismatch',
   AVAILABLE_UPDATE_VERSIONS: 'Available Update Versions',
   EXTENSION_DEPENDENCIES_NOT_FOUND: 'Extension Dependencies Not Found',

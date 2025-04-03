@@ -108,7 +108,7 @@ export const PodIp = styled.div`
   width: 20px;
   height: 20px;
   border-radius: 4px;
-  background: ${({ theme }) => theme.palette.colors.green[2]};
+  background: ${({ theme }) => theme.palette.colors.blue[0]};
   margin-left: 8px;
   line-height: 20px;
   text-align: center;

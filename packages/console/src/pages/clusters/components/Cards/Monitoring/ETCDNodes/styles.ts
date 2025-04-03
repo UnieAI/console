@@ -39,7 +39,7 @@ export const Item = styled.div`
   align-items: center;
   padding: 12px;
   border-radius: 4px;
-  border: 1px solid #e3e9ef;
+  border: 1px solid #e4e3ef;
   background-color: #fff;
 
   &:not(:first-child) {

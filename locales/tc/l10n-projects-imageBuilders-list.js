@@ -40,7 +40,7 @@ module.exports = {
   TRIGGER_TOKEN: '觸發令牌',
   INVALID_TRIGGER_TOKEN_DESC: '只能包含大小寫字母、數字',
   TRIGGER_TOKEN_DESC:
-    'Set a token used to authenticate a client against KubeSphere when the client attempts to trigger image building on KubeSphere. The token can contain only uppercase letters, lowercase letters, and numbers.',
+    'Set a token used to authenticate a client against UWS when the client attempts to trigger image building on UWS. The token can contain only uppercase letters, lowercase letters, and numbers.',
   CODE_RELATIVE_PATH: '代碼相對路徑(可選):',
   CODE_RELATIVE_PATH_DESC: '可以指定代碼編譯的相對路徑，預設為 /',
   S2I_ENVIRONMENT_DESC:

@@ -58,6 +58,6 @@ export const Dot = styled.div<{ $isActive: boolean }>`
     width: 100%;
     height: 2px;
     background-color: ${({ theme, $isActive }) =>
-      $isActive ? theme.palette.colors.green[2] : '#d8dee5'};
+      $isActive ? theme.palette.colors.blue[0] : '#d8dee5'};
   }
 `;

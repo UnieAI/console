@@ -52,7 +52,7 @@ export const ActionButton = styled.div<{ disabled?: boolean }>`
     }
   }
   &:active {
-    background-color: #e3e9ef;
+    background-color: #e4e3ef;
     cursor: pointer;
     & svg.kubed-icon {
       color: #000000;

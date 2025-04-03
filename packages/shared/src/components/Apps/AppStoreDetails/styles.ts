@@ -61,7 +61,7 @@ export const StyledTabs = styled(Tabs)`
   }
 
   .tab-item__active .tab-label {
-    color: ${({ theme }) => theme.palette.colors.green[2]};
+    color: ${({ theme }) => theme.palette.colors.blue[0]};
   }
 `;
 

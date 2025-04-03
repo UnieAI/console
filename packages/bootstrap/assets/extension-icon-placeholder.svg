@@ -27,11 +27,11 @@
           stroke="#EFF4F9" stroke-width="0.6" stroke-linecap="round"/>
     <rect x="2.3" y="2.38057" width="43.4" height="43.4" rx="9.7"
           stroke="#CCD3DB" stroke-width="0.6"/>
-    <circle cx="24.0015" cy="24.062" r="18.8265" stroke="#E3E9EF"
+    <circle cx="24.0015" cy="24.062" r="18.8265" stroke="#e4e3ef"
             stroke-width="0.6"/>
-    <circle cx="24.0013" cy="24.0833" r="11.4308" stroke="#E3E9EF"
+    <circle cx="24.0013" cy="24.0833" r="11.4308" stroke="#e4e3ef"
             stroke-width="0.6"/>
-    <circle cx="24.0004" cy="24.0806" r="8.07634" stroke="#E3E9EF"
+    <circle cx="24.0004" cy="24.0806" r="8.07634" stroke="#e4e3ef"
             stroke-width="0.6"/>
   </g>
   <defs>

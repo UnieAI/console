@@ -61,7 +61,7 @@ export const ItemContent = styled(Link)`
     cursor: pointer;
     & > strong,
     & > span {
-      color: #369a6a;
+      color: #4e5cf1;
     }
   }
 `;

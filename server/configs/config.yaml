@@ -31,24 +31,24 @@ server:
   apiServer:
     clientID: kubesphere
     clientSecret: kubesphere
-    url: http://ks-apiserver
-    wsUrl: ws://ks-apiserver
+    url: https://uwsapi.unieai.com
+    wsUrl: wss://uwsapi.unieai.com
 
   # docker image search default url
   dockerHubUrl: https://hub.docker.com
 
   # default theme
   theme:
-    tabTitle: 'KubeSphere'
+    tabTitle: 'UWS | UnieAI Web Service'
     title: 'ENT_TITLE'
-    logo: /assets/logo.svg
+    logo: /assets/logo.png
     favicon: /assets/favicon.ico
     background: ''
-    description: 'KS_DESCRIPTION'
+    description: 'UWS_DESCRIPTION'
 
 client:
-  title: KubeSphere
-  description: ''
+  title: UWS | UnieAI Web Service
+  description: "UnieAI Generative AI Cloud Service (UWS) leverages Kubernetes, dynamic resource management, and a multi-tenant architecture, combined with the UnieInfra cross-platform inference engine, to achieve zero-threshold, ultra-low-cost, and highly efficient AI deployment . Through UnieAI's cross-platform compilation technology, UWS supports integration with CPUs and GPUs from various brands on the market, and is compatible with popular large language models such as Llama, Mistral, Qwen, Gemma, along with FP8 and INT4 quantization high-speed inference."
   encryptKey: kubesphere
 
   version:
@@ -58,8 +58,8 @@ client:
 
   # kubesphere urls
   issueUrl: https://github.com/kubesphere/kubesphere/issues/new/choose
-  reposUrl: https://github.com/kubesphere/kubesphere
-  slackUrl: https://kubesphere.slack.com
+  reposUrl: https://github.com/unieai/uws
+  slackUrl: https://uws.slack.com
   documents:
     en:
       url: https://docs.kubesphere.com.cn/v4.0
@@ -70,6 +70,8 @@ client:
 
   # current support lanaguages
   supportLangs:
+    - label: '繁體中文'
+      value: 'tw-zh'
     - label: '简体中文'
       value: 'zh'
     - label: 'English'

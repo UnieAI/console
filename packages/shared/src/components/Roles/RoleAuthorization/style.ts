@@ -107,7 +107,7 @@ const TextField = styled(Field)`
   &:hover {
     .field-value,
     .field-label {
-      color: ${({ theme }) => theme.palette.colors.green[2]};
+      color: ${({ theme }) => theme.palette.colors.blue[0]};
     }
   }
 `;

@@ -73,8 +73,8 @@ export const SortButton = styled.div`
   vertical-align: top;
   cursor: pointer;
   .kubed-icon {
-    color: #00aa72;
-    fill: #90e0c5;
+    color: #4e5cf1;
+    fill: #a6adf5;
   }
 `;
 

@@ -58,9 +58,9 @@ export const TableWrapper = styled.div`
         }
         &.table-expanded-row {
           &:hover td {
-            background-color: #e3e9ef;
+            background-color: #e4e3ef;
           }
-          background-color: #e3e9ef;
+          background-color: #e4e3ef;
         }
         > td {
           height: 40px;
@@ -75,7 +75,7 @@ export const TableWrapper = styled.div`
   .label {
     font-weight: 500;
     color: #36435c;
-    background-color: #e3e9ef;
+    background-color: #e4e3ef;
     border-radius: 2px;
     height: 20px;
     display: inline-block;

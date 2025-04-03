@@ -13,7 +13,7 @@ const rootDir = path.resolve(__dirname, '../');
 const absResolve = absolutePath => path.resolve(rootDir, absolutePath);
 
 const config = {
-  siteTitle: 'KubeSphere Console',
+  siteTitle: 'UWS Console',
   assetsPublicPath: '/',
   assetsRoot: resolve('dist'),
   distPath: resolve('dist'),
