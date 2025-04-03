@@ -44,8 +44,8 @@ import { Button } from '@kubed/components';
 
 export const LoginWrapper = styled.div`
   display: flex;
-  flex-direction: column;
-  gap: 20px;
+  flex-direction: rows;
+  // gap: 20px;
   justify-content: center;
   align-items: center;
   height: 100vh; // 確保佔滿整個視窗高度
@@ -88,7 +88,10 @@ export const LoginHeader = styled.a`
 export const WelcomeTitle = styled.div`
   font-weight: 600;
   line-height: 20px;
-  text-align: center;
+  text-align: start;
+  font-size: 40px;
+  // margin-left: 200px;
+  margin-top: 10px;
 `;
 
 export const LoginDivider = styled.div`
@@ -125,6 +128,34 @@ export const OauthButton = styled.div`
 
 export const LoginButton = styled.div`
   margin-top: 24px;
+  button {
+    background-color: #1512de;
+    color: white;
+    font-weight: bold;
+    border-radius: 9999px;
+    padding: 1.95rem 1.5rem;
+    font-size: 1.3rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 0.3s ease;
+
+    span{
+      overflow: visible;
+    }
+    span.arrow {
+      display: inline-block;
+      transition: transform 0.3s ease;
+      margin-left: 0.5rem;
+    }
+
+    &:hover {
+    background-color: #4e14e0;
+
+    span.arrow {
+      transform: translateX(6px);
+    }
+  }
 `;
 
 export const BackButton = styled(Button)`
@@ -137,5 +168,17 @@ export const BackButton = styled(Button)`
   span {
     line-height: 20px;
     font-weight: 600;
+  }
+`;
+
+export const LoginImageWrapper = styled.div`
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  @media (max-width: 1023px) {
+    display: none;
   }
 `;

@@ -12,7 +12,7 @@ module.exports = {
   LOG_OUT: 'Log Out',
   ABOUT: 'About',
   USERNAME_OR_EMAIL: 'Username or Email',
-  WELCOME: 'Welcome',
+  WELCOME: 'Sign in to your account',
   USERNAME_WITH_TITLE: '{title} Username',
   INTERNAL_SERVER_ERROR_TIP: '對不起，服務器有小差錯了',
   TOO_MANY_FAILURES:

@@ -12,7 +12,7 @@ module.exports = {
   LOG_OUT: 'Log Out',
   ABOUT: 'About',
   USERNAME_OR_EMAIL: 'Username or Email',
-  WELCOME: 'Welcome',
+  WELCOME: 'Sign in to your account',
   USERNAME_WITH_TITLE: '{title} Username',
   INTERNAL_SERVER_ERROR_TIP: 'An unepected error seems to have occurred. Please refresh your page.',
   TOO_MANY_FAILURES:

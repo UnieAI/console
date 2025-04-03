@@ -12,7 +12,7 @@ module.exports = {
   LOG_OUT: '登出',
   ABOUT: '关于',
   USERNAME_OR_EMAIL: '用户名或邮箱',
-  WELCOME: '欢迎登录',
+  WELCOME: '登入您的UWS帳戶',
   USERNAME_WITH_TITLE: '{title} 用户名',
   INTERNAL_SERVER_ERROR_TIP: '对不起，服务器开小差了',
   TOO_MANY_FAILURES: '连续登录失败次数超过限制，请稍后重试。',
